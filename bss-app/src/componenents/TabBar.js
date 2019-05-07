@@ -90,7 +90,7 @@ class TabBar extends React.Component {
             value={this.state.value}
             onChange={this.handleChange}
             indicatorColor="secondary"
-            textColor="secondary"
+            textColor="inherit"
             variant="centered"
           >
             <Tab label="Start" />
