@@ -16,7 +16,6 @@ import ServicesTextContainer from './ServicesTextContainer';
 import ServicesHeadingContainer from './ServicesHeadingContainer';
 import HeadingContainer from './headingcontainer';
 import TextContainer from './textcontainer';
-import { Hidden } from 'material-ui';
 
 
 function TabContainer(props) {
@@ -34,7 +33,6 @@ TabContainer.propTypes = {
   dir: PropTypes.string.isRequired,
 };
 
-let im1 = '../images/image1.jpg';
 
 const styles = theme => ({
   root: {
