@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfb59b2fe5d91cbaa6e876310adfa64e",
+    "revision": "97251d0293d6e3fff143f5d7cebc6817",
     "url": "/hemsida/index.html"
   },
   {
-    "revision": "751b4f3487fa13a40c6c",
+    "revision": "13f34c8d12924011df32",
     "url": "/hemsida/static/css/main.aec0c013.chunk.css"
   },
   {
-    "revision": "745e41c81806207b9a0c",
-    "url": "/hemsida/static/js/2.c72d36a0.chunk.js"
+    "revision": "f506040e5a7f2b3d042e",
+    "url": "/hemsida/static/js/2.5b0dba1e.chunk.js"
   },
   {
-    "revision": "751b4f3487fa13a40c6c",
-    "url": "/hemsida/static/js/main.8242c08d.chunk.js"
+    "revision": "13f34c8d12924011df32",
+    "url": "/hemsida/static/js/main.d84124a2.chunk.js"
   },
   {
     "revision": "7e2c20bf41508ac5c881",
