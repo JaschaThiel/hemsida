@@ -16,12 +16,14 @@ import ServicesTextContainer from './ServicesTextContainer';
 import ServicesHeadingContainer from './ServicesHeadingContainer';
 import HeadingContainer from './headingcontainer';
 import TextContainer from './textcontainer';
+import { Hidden } from 'material-ui';
+
 
 function TabContainer(props) {
   const { children, dir } = props;
 
   return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3 }}>
+    <Typography component="div" dir={dir} style={{ padding:0 }}>
       {children}
     </Typography>
   );
@@ -31,6 +33,8 @@ TabContainer.propTypes = {
   children: PropTypes.node.isRequired,
   dir: PropTypes.string.isRequired,
 };
+
+let im1 = '../images/image1.jpg';
 
 const styles = theme => ({
   root: {
@@ -61,7 +65,14 @@ const styles = theme => ({
     position: 'auto',
     flexGrow: 1,
   },
+  cropped: {
+    width: '100%',
+    height: '33vw',
+    overflow: 'hidden',
+    objectFit: 'cover',
+  }
 });
+
 
 class TabBar extends React.Component {
   state = {
@@ -109,19 +120,21 @@ class TabBar extends React.Component {
           align="center"
         >
           <TabContainer dir={theme.direction}>
-          <img src={ require('../images/image1.jpg')} alt="im1" width="100%" height="600px" overflow="hidden" />
+          
+          <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1" />
+
           <HeadingContainer />
           <TextContainer />
           </TabContainer>
           
           <TabContainer dir={theme.direction}>
-          <img src={ require('../images/image1.jpg')} alt="im1" width="100%" height="600px" overflow="hidden" />
+          <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1"  />
           <ServicesHeadingContainer />
           <ServicesTextContainer />
           </TabContainer>
 
           <TabContainer dir={theme.direction}>
-          <img src={ require('../images/image2.jpg')} alt="im2" width="100%" height="600px" />
+          <img className={classes.cropped} src={ require('../images/image2.jpg')} alt="im2" />
           <ContactHeadingContainer />
           <ContactTextContainer />
           </TabContainer>
