@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
+import ReactFitText from 'react-fittext';
+
 
 const styles = {
   root: {
@@ -15,9 +17,11 @@ function Types(props) {
 
   return (
     <div className={classes.root}>
-      <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
-        Tjänster
-      </Typography>
+      <ReactFitText>
+        <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
+          Tjänster
+        </Typography>
+      </ReactFitText>
     </div>
   );
 }

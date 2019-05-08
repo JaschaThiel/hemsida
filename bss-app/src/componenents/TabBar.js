@@ -116,9 +116,7 @@ class TabBar extends React.Component {
           align="center"
         >
           <TabContainer dir={theme.direction}>
-          
           <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1" />
-
           <HeadingContainer />
           <TextContainer />
           </TabContainer>
