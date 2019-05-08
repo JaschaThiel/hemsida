@@ -36,7 +36,7 @@ TabContainer.propTypes = {
 
 const styles = theme => ({
   root: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor:theme.palette.background.white,
     width: '100vw',
     position: 'relative',
     minHeight: 200,
@@ -84,6 +84,10 @@ class TabBar extends React.Component {
     window.scrollTo(0,0);
   };
 
+  componentDidUpdate() {
+    this.swipeableActions.updateHeight();
+  }
+
   render() {
     const { classes, theme } = this.props;
     return (
@@ -120,6 +124,10 @@ class TabBar extends React.Component {
           axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
           index={this.state.value}
           onChangeIndex={this.handleChangeIndex}
+          action={actions => {
+            this.swipeableActions = actions;
+          }}
+          animateHeight={true}
           align="center"
         >
           <TabContainer dir={theme.direction}>
