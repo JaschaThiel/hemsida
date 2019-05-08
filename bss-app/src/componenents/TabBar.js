@@ -8,6 +8,9 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
+import ReactFitText from 'react-fittext';
+import Fab from '@material-ui/core/Fab';
+
 
 import ContactTextContainer from './ContactTextContainer';
 import ContactHeadingContainer from './ContactHeadingContainer';
@@ -56,6 +59,7 @@ const styles = theme => ({
   langButton: {
     marginRight: '1vw',
     position: 'auto',
+    color: 'lightGreen',
   },
   tabs: {
     position: 'auto',
@@ -92,6 +96,7 @@ class TabBar extends React.Component {
           <Typography variant="headline" color="inherit" align="left" className={classes.grow}>
             Blekinge Stugservice
           </Typography>
+          <ReactFitText>
           <Tabs
             className={classes.tabs}
             value={this.state.value}
@@ -104,9 +109,12 @@ class TabBar extends React.Component {
             <Tab label="Tjänster" />
             <Tab label="Kontakt" />
           </Tabs>
-          <Button className={classes.langButton} color="inherit" variant="outlined" size="small" onClick={() => { console.log('SE'); }} >SE</Button>
-          <Button className={classes.langButton} color="inherit" variant="outlined" size="small" onClick={() => { console.log('DE'); }} >DE</Button>
-          <Button className={classes.langButton} color="inherit" variant="outlined" size="small" onClick={() => { console.log('ENG'); }} >ENG</Button>
+          </ReactFitText>
+          <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('SE');}} >SE</Fab>
+          <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('DE');}} >DE</Fab>
+          <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('ENG');}} >EN</Fab>
+
+          
         </Toolbar>  
         </AppBar>
         <SwipeableViews
