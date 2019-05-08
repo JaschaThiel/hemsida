@@ -42,27 +42,22 @@ const styles = theme => ({
     minHeight: 200,
   },
   grow: {
-    flexGrow: 1,
+    flexGrow: 10,
   },
   appBar: {
     position: 'abslolute',
   },
-  homeButton: {
-    marginLeft: -12,
-    marginRight: 40,
-  },
-  menuButton: {
-    marginLeft: -52,
-    marginRight: 80,
+  buttons: {
+    flexGrow : 1,
   },
   langButton: {
-    marginRight: '1vw',
+    marginLeft: '1vw',
     position: 'auto',
     color: 'lightGreen',
   },
   tabs: {
     position: 'auto',
-    flexGrow: 1,
+    flexGrow: 10,
   },
   cropped: {
     width: '100%',
@@ -109,9 +104,11 @@ class TabBar extends React.Component {
             <Tab label="Kontakt" />
           </Tabs>
           </ReactFitText>
+          <div className={classes.buttons} align="right">
           <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('SE');}} >SE</Fab>
           <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('DE');}} >DE</Fab>
           <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('ENG');}} >EN</Fab>
+          </div>
 
           
         </Toolbar>  
