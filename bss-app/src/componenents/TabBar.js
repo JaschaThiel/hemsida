@@ -70,15 +70,18 @@ const styles = theme => ({
 
 class TabBar extends React.Component {
   state = {
-    value: 0,
+    value: 0
   };
 
   handleChange = (event, value) => {
     this.setState({ value });
+    window.scrollTo(0,0);
   };
 
   handleChangeIndex = index => {
-    this.setState({ value: index });
+    this.setState({ value: index,
+    });
+    window.scrollTo(0,0);
   };
 
   render() {
@@ -122,6 +125,8 @@ class TabBar extends React.Component {
           <TabContainer dir={theme.direction}>
           <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1" />
           <HeadingContainer />
+          <TextContainer />
+          <TextContainer />
           <TextContainer />
           </TabContainer>
           
