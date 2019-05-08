@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import SwipeableViews from 'react-swipeable-views';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -33,7 +32,6 @@ TabContainer.propTypes = {
   dir: PropTypes.string.isRequired,
 };
 
-
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.background.paper,
@@ -65,7 +63,7 @@ const styles = theme => ({
   },
   cropped: {
     width: '100%',
-    height: '33vw',
+    height: '55vh',
     overflow: 'hidden',
     objectFit: 'cover',
   }
