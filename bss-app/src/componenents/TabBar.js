@@ -53,7 +53,7 @@ const styles = theme => ({
   langButton: {
     marginLeft: '1vw',
     position: 'auto',
-    color: 'lightGreen',
+    color: '#8BC34A',
   },
   tabs: {
     position: 'auto',
@@ -87,7 +87,7 @@ class TabBar extends React.Component {
       <div className={classes.root}>
         <AppBar className={classes.appBar} >
         <Toolbar >
-          <Typography variant="headline" color="inherit" align="left" className={classes.grow}>
+          <Typography variant="headline" color="secondary" align="left" className={classes.grow}>
             Blekinge Stugservice
           </Typography>
           <ReactFitText>
