@@ -50,7 +50,17 @@ const styles = theme => ({
   buttons: {
     flexGrow : 1,
   },
-  langButton: {
+  seButton: {
+    marginLeft: '1vw',
+    position: 'auto',
+    color: '#8BC34A',
+  },
+  deButton: {
+    marginLeft: '1vw',
+    position: 'auto',
+    color: '#8BC34A',
+  },
+  enButton: {
     marginLeft: '1vw',
     position: 'auto',
     color: '#8BC34A',
@@ -68,9 +78,12 @@ const styles = theme => ({
 });
 
 
+
+
 class TabBar extends React.Component {
   state = {
-    value: 0
+    value: 0,
+    lang: 'se'
   };
 
   handleChange = (event, value) => {
@@ -84,8 +97,15 @@ class TabBar extends React.Component {
     window.scrollTo(0,0);
   };
 
+  changeLang = (language) => {
+    console.log(this.state.lang);
+    var fabID = language[language.length-1];
+    fabID === '5' ? this.setState({ lang: 'se'}) : fabID === '6' ? this.setState({ lang: 'de'}) : this.setState({ lang: 'en'});
+  };
+
   componentDidUpdate() {
     this.swipeableActions.updateHeight();
+    console.log(this.state.lang);
   }
 
   render() {
@@ -104,7 +124,6 @@ class TabBar extends React.Component {
             onChange={this.handleChange}
             indicatorColor="secondary"
             textColor="inherit"
-            variant="centered"
           >
             <Tab label="Start" />
             <Tab label="Tjänster" />
@@ -112,9 +131,12 @@ class TabBar extends React.Component {
           </Tabs>
           </ReactFitText>
           <div className={classes.buttons} align="right">
-          <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('SE');}} >SE</Fab>
-          <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('DE');}} >DE</Fab>
-          <Fab className={classes.langButton} color="secondary" size="small" variant="extended" onClick={() => { console.log('ENG');}} >EN</Fab>
+          <Fab label="test" className={classes.seButton} color="secondary" size="small" variant="extended"
+          onClick={() => { this.changeLang(this.props.classes.seButton) }} >SE</Fab>
+          <Fab className={classes.deButton} color="secondary" size="small" variant="extended"
+          onClick={() => { this.changeLang(this.props.classes.deButton) }} >DE</Fab>
+          <Fab className={classes.enButton} color="secondary" size="small" variant="extended"
+          onClick={() => { this.changeLang(this.props.classes.enButton) }} >EN</Fab>
           </div>
 
           
