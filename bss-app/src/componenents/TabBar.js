@@ -78,8 +78,6 @@ const styles = theme => ({
 });
 
 
-
-
 class TabBar extends React.Component {
   state = {
     value: 0,
@@ -138,17 +136,13 @@ class TabBar extends React.Component {
           <Fab className={classes.enButton} color="secondary" size="small" variant="extended"
           onClick={() => { this.changeLang(this.props.classes.enButton) }} >EN</Fab>
           </div>
-
-          
         </Toolbar>  
         </AppBar>
         <SwipeableViews
           axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
           index={this.state.value}
           onChangeIndex={this.handleChangeIndex}
-          action={actions => {
-            this.swipeableActions = actions;
-          }}
+          action={actions => {this.swipeableActions = actions;}}
           animateHeight={true}
           align="center"
         >
