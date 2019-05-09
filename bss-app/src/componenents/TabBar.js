@@ -39,7 +39,7 @@ const styles = theme => ({
     backgroundColor:theme.palette.background.white,
     width: '100vw',
     position: 'relative',
-    minHeight: 200,
+    minHeight: '100vh',
   },
   grow: {
     flexGrow: 10,
