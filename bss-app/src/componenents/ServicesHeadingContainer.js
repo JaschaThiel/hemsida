@@ -13,13 +13,30 @@ const styles = {
 };
 
 function Types(props) {
-  const { classes } = props;
+  const { classes, language } = props;
 
   return (
+    language === 'se' ?
     <div className={classes.root}>
       <ReactFitText>
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
           Tjänster
+        </Typography>
+      </ReactFitText>
+    </div>
+    : language === 'de' ?
+    <div className={classes.root}>
+      <ReactFitText>
+        <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
+          Keine Ahnung
+        </Typography>
+      </ReactFitText>
+    </div>
+    :
+    <div className={classes.root}>
+      <ReactFitText>
+        <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
+          Services
         </Typography>
       </ReactFitText>
     </div>
@@ -28,6 +45,7 @@ function Types(props) {
 
 Types.propTypes = {
   classes: PropTypes.object.isRequired,
+  language: PropTypes.string.isRequired,
 };
 
 export default withStyles(styles)(Types);

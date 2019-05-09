@@ -96,14 +96,12 @@ class TabBar extends React.Component {
   };
 
   changeLang = (language) => {
-    console.log(this.state.lang);
     var fabID = language[language.length-1];
     fabID === '5' ? this.setState({ lang: 'se'}) : fabID === '6' ? this.setState({ lang: 'de'}) : this.setState({ lang: 'en'});
   };
 
   componentDidUpdate() {
     this.swipeableActions.updateHeight();
-    console.log(this.state.lang);
   }
 
   render() {
@@ -112,7 +110,7 @@ class TabBar extends React.Component {
       <div className={classes.root}>
         <AppBar className={classes.appBar} >
         <Toolbar >
-          <Typography variant="headline" color="secondary" align="left" className={classes.grow}>
+          <Typography variant="h5" color="secondary" align="left" className={classes.grow}>
             Blekinge Stugservice
           </Typography>
           <ReactFitText>
@@ -123,9 +121,9 @@ class TabBar extends React.Component {
             indicatorColor="secondary"
             textColor="inherit"
           >
-            <Tab label="Start" />
-            <Tab label="Tjänster" />
-            <Tab label="Kontakt" />
+            <Tab label={this.state.lang === 'en' ? "Home" : "Start"} />
+            <Tab label={this.state.lang === 'se' ? "Tjänster" : this.state.lang === 'de' ? "Keine Ahnung" : "Services"} />
+            <Tab label={this.state.lang === 'en' ? "Contact" : "Kontakt"} />
           </Tabs>
           </ReactFitText>
           <div className={classes.buttons} align="right">
@@ -148,22 +146,20 @@ class TabBar extends React.Component {
         >
           <TabContainer dir={theme.direction}>
           <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1" />
-          <HeadingContainer />
-          <TextContainer />
-          <TextContainer />
-          <TextContainer />
+          <HeadingContainer language={this.state.lang} />
+          <TextContainer language={this.state.lang}/>
           </TabContainer>
           
           <TabContainer dir={theme.direction}>
           <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1"  />
-          <ServicesHeadingContainer />
-          <ServicesTextContainer />
+          <ServicesHeadingContainer language={this.state.lang} />
+          <ServicesTextContainer language={this.state.lang} />
           </TabContainer>
 
           <TabContainer dir={theme.direction}>
           <img className={classes.cropped} src={ require('../images/image2.jpg')} alt="im2" />
-          <ContactHeadingContainer />
-          <ContactTextContainer />
+          <ContactHeadingContainer language={this.state.lang} />
+          <ContactTextContainer language={this.state.lang} />
           </TabContainer>
         </SwipeableViews>
       </div>
