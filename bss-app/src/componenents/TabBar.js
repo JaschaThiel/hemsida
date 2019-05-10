@@ -46,6 +46,7 @@ const styles = theme => ({
   },
   appBar: {
     position: 'abslolute',
+    backgroundColor: theme.palette.primary.dark,
   },
   buttons: {
     flexGrow : 1,
@@ -53,17 +54,17 @@ const styles = theme => ({
   seButton: {
     marginLeft: '1vw',
     position: 'auto',
-    color: '#8BC34A',
-  },
+    color: '#212121',
+    },
   deButton: {
     marginLeft: '1vw',
     position: 'auto',
-    color: '#8BC34A',
+    color: '#212121',
   },
   enButton: {
     marginLeft: '1vw',
     position: 'auto',
-    color: '#8BC34A',
+    color: '#212121',
   },
   tabs: {
     position: 'auto',
@@ -86,13 +87,11 @@ class TabBar extends React.Component {
 
   handleChange = (event, value) => {
     this.setState({ value });
-    window.scrollTo(0,0);
   };
 
   handleChangeIndex = index => {
     this.setState({ value: index,
     });
-    window.scrollTo(0,0);
   };
 
   changeLang = (language) => {
@@ -102,6 +101,7 @@ class TabBar extends React.Component {
 
   componentDidUpdate() {
     this.swipeableActions.updateHeight();
+    window.scrollTo(0,0);
   }
 
   render() {
@@ -110,7 +110,7 @@ class TabBar extends React.Component {
       <div className={classes.root}>
         <AppBar className={classes.appBar} >
         <Toolbar >
-          <Typography variant="h5" color="secondary" align="left" className={classes.grow}>
+          <Typography variant="h5" color="textPrimary" align="left" className={classes.grow}>
             Blekinge Stugservice
           </Typography>
           <ReactFitText>
@@ -127,11 +127,11 @@ class TabBar extends React.Component {
           </Tabs>
           </ReactFitText>
           <div className={classes.buttons} align="right">
-          <Fab label="test" className={classes.seButton} color="secondary" size="small" variant="extended"
+          <Fab hover className={classes.seButton} color={this.state.lang === 'se' ? "secondary" : "primary"} size="small" variant="extended"
           onClick={() => { this.changeLang(this.props.classes.seButton) }} >SE</Fab>
-          <Fab className={classes.deButton} color="secondary" size="small" variant="extended"
+          <Fab className={classes.deButton} color={this.state.lang === 'de' ? "secondary" : "primary"} size="small" variant="extended"
           onClick={() => { this.changeLang(this.props.classes.deButton) }} >DE</Fab>
-          <Fab className={classes.enButton} color="secondary" size="small" variant="extended"
+          <Fab className={classes.enButton} color={this.state.lang === 'en' ? "secondary" : "primary"} size="small" variant="extended"
           onClick={() => { this.changeLang(this.props.classes.enButton) }} >EN</Fab>
           </div>
         </Toolbar>  
