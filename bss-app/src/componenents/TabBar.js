@@ -122,12 +122,12 @@ class TabBar extends React.Component {
             textColor="inherit"
           >
             <Tab label={this.state.lang === 'en' ? "Home" : "Start"} />
-            <Tab label={this.state.lang === 'se' ? "Tjänster" : this.state.lang === 'de' ? "Keine Ahnung" : "Services"} />
+            <Tab label={this.state.lang === 'se' ? "Tjänster" : this.state.lang === 'de' ? "Dienstleistungen" : "Services"} />
             <Tab label={this.state.lang === 'en' ? "Contact" : "Kontakt"} />
           </Tabs>
           </ReactFitText>
           <div className={classes.buttons} align="right">
-          <Fab hover className={classes.seButton} color={this.state.lang === 'se' ? "secondary" : "primary"} size="small" variant="extended"
+          <Fab className={classes.seButton} color={this.state.lang === 'se' ? "secondary" : "primary"} size="small" variant="extended"
           onClick={() => { this.changeLang(this.props.classes.seButton) }} >SE</Fab>
           <Fab className={classes.deButton} color={this.state.lang === 'de' ? "secondary" : "primary"} size="small" variant="extended"
           onClick={() => { this.changeLang(this.props.classes.deButton) }} >DE</Fab>
@@ -145,19 +145,19 @@ class TabBar extends React.Component {
           align="center"
         >
           <TabContainer dir={theme.direction}>
-          <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1" />
+          <img className={classes.cropped} src={ require('../images/IMG_7588_cropped5.JPG')} alt="im1" />
           <HeadingContainer language={this.state.lang} />
           <TextContainer language={this.state.lang}/>
           </TabContainer>
           
           <TabContainer dir={theme.direction}>
-          <img className={classes.cropped} src={ require('../images/image1.jpg')} alt="im1"  />
+          <img className={classes.cropped} src={ require('../images/IMG_7715.JPG')} alt="im1"  />
           <ServicesHeadingContainer language={this.state.lang} />
           <ServicesTextContainer language={this.state.lang} />
           </TabContainer>
 
           <TabContainer dir={theme.direction}>
-          <img className={classes.cropped} src={ require('../images/image2.jpg')} alt="im2" />
+          <img className={classes.cropped} src={ require('../images/IMG_7638_cropped3.JPG')} alt="im2" />
           <ContactHeadingContainer language={this.state.lang} />
           <ContactTextContainer language={this.state.lang} />
           </TabContainer>

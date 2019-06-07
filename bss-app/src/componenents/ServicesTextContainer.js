@@ -5,9 +5,10 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   root: {
-    width: '100%',
     maxWidth: 1200,
     fontSize: 25,
+    paddingLeft: '5vw',
+    paddingRight: '5vw',
   },
 };
 

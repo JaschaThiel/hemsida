@@ -9,6 +9,8 @@ const styles = {
   root: {
     width: '100%',
     maxWidth: 900,
+    paddingLeft: '10vw',
+    paddingRight: '10vw',
   },
 };
 
@@ -18,7 +20,7 @@ function Types(props) {
   return (
     language === 'se' ?
     <div className={classes.root}>
-      <ReactFitText>
+      <ReactFitText compressor={1.19} >
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
           Kontakt
         </Typography>
@@ -26,15 +28,15 @@ function Types(props) {
     </div>
     : language === 'de' ?
     <div className={classes.root}>
-      <ReactFitText>
+      <ReactFitText compressor={1.19} >
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
-          Kontakt oder so
+          Kontakt
         </Typography>
       </ReactFitText>
     </div>
     :
     <div className={classes.root}>
-      <ReactFitText>
+      <ReactFitText compressor={1.19} >
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
           Contact information
         </Typography>

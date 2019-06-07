@@ -5,11 +5,20 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   root: {
-    width: '100%',
     maxWidth: 1200,
     fontSize: 25,
+    paddingLeft: '5vw',
+    paddingRight: '5vw',
   },
+  img1: {
+    width: '75%',
+    height: '55vh',
+    overflow: 'hidden',
+    objectFit: 'scale-down',
+  }
 };
+
+const image1 = require('../images/IMG_7681.JPG');
 
 function Types(props) {
   const { classes, language } = props;
@@ -22,6 +31,7 @@ function Types(props) {
         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
         dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
       </Typography>
+        <img className={classes.img1} src={ image1} alt="im1" />
       <Typography variant="inherit" gutterBottom={true} >
       body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
@@ -37,6 +47,7 @@ function Types(props) {
         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
         dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
       </Typography>
+        <img className={classes.img1} src={ image1} alt="im1" />
       <Typography variant="inherit" gutterBottom={true} >
       body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
@@ -52,6 +63,7 @@ function Types(props) {
         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
         dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
       </Typography>
+        <img className={classes.img1} src={ image1} alt="im1" />
       <Typography variant="inherit" gutterBottom={true} >
       body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam

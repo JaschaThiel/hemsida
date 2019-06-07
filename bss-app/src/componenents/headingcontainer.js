@@ -7,8 +7,9 @@ import ReactFitText from 'react-fittext';
 
 const styles = {
   root: {
-    width: '100%',
     maxWidth: 900,
+    paddingLeft: '10vw',
+    paddingRight: '10vw',
   },
 };
 
@@ -18,25 +19,40 @@ function Types(props) {
   return (
     language === 'se' ?
     <div className={classes.root}>
-      <ReactFitText>
+      <ReactFitText compressor={1.19} >
+        <Typography color="secondary" component="h2" variant="h1" gutterBottom={false} >
+          Välkommen till
+        </Typography>
+      </ReactFitText>
+      <ReactFitText compressor={1.19} >
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
-          Välkommen till Blekinge Stugservice
+          Blekinge Stugservice
         </Typography>
       </ReactFitText>
     </div>
     : language === 'de' ?
     <div className={classes.root}>
-      <ReactFitText>
+      <ReactFitText compressor={1.19}>
+        <Typography color="secondary" component="h2" variant="h1" gutterBottom={false} >
+          Willkommen zum
+        </Typography>
+        </ReactFitText>
+        <ReactFitText compressor={1.19} >
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
-          Nur der HSV!
+          Blekinge Ferienhausservice
         </Typography>
       </ReactFitText>
     </div>
     :
     <div className={classes.root}>
-      <ReactFitText>
+      <ReactFitText compressor={1.19} >
+        <Typography color="secondary" component="h2" variant="h1" gutterBottom={false} >
+          Welcome to
+        </Typography>
+      </ReactFitText>
+      <ReactFitText compressor={1.19} >
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={true} >
-          Welcome to Blekinge Stugservice
+          Blekinge Stugservice
         </Typography>
       </ReactFitText>
     </div>
