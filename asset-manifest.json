@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/hemsida/static/css/main.aec0c013.chunk.css",
-    "main.js": "/hemsida/static/js/main.7008bf7e.chunk.js",
-    "main.js.map": "/hemsida/static/js/main.7008bf7e.chunk.js.map",
+    "main.js": "/hemsida/static/js/main.7a3a1f2c.chunk.js",
+    "main.js.map": "/hemsida/static/js/main.7a3a1f2c.chunk.js.map",
     "runtime~main.js": "/hemsida/static/js/runtime~main.a68333e8.js",
     "runtime~main.js.map": "/hemsida/static/js/runtime~main.a68333e8.js.map",
-    "static/js/2.b2bbf0eb.chunk.js": "/hemsida/static/js/2.b2bbf0eb.chunk.js",
-    "static/js/2.b2bbf0eb.chunk.js.map": "/hemsida/static/js/2.b2bbf0eb.chunk.js.map",
+    "static/js/2.058463a0.chunk.js": "/hemsida/static/js/2.058463a0.chunk.js",
+    "static/js/2.058463a0.chunk.js.map": "/hemsida/static/js/2.058463a0.chunk.js.map",
     "index.html": "/hemsida/index.html",
-    "precache-manifest.daf1a60225c284299fbde9d7987fb47a.js": "/hemsida/precache-manifest.daf1a60225c284299fbde9d7987fb47a.js",
+    "precache-manifest.1fd7f73d394b2f2bfe2c6d9a03aea9cc.js": "/hemsida/precache-manifest.1fd7f73d394b2f2bfe2c6d9a03aea9cc.js",
     "service-worker.js": "/hemsida/service-worker.js",
     "static/css/main.aec0c013.chunk.css.map": "/hemsida/static/css/main.aec0c013.chunk.css.map",
-    "static/media/image1.jpg": "/hemsida/static/media/image1.2af1e0e0.jpg",
-    "static/media/image2.jpg": "/hemsida/static/media/image2.bc3ad9e3.jpg"
+    "static/media/IMG_7588_cropped5.JPG": "/hemsida/static/media/IMG_7588_cropped5.7e0f20bc.JPG",
+    "static/media/IMG_7638_cropped3.JPG": "/hemsida/static/media/IMG_7638_cropped3.26b24f30.JPG",
+    "static/media/IMG_7681.JPG": "/hemsida/static/media/IMG_7681.944aa23b.JPG",
+    "static/media/IMG_7715.JPG": "/hemsida/static/media/IMG_7715.b6e05f62.JPG"
   }
 }
