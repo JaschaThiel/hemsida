@@ -5,7 +5,6 @@ import { withStyles } from '@material-ui/core/styles';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import { ExpansionPanelSummary, ExpansionPanelDetails } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { makeStyles } from '@material-ui/core/styles';
 
 const styles = {
   root: {
@@ -27,9 +26,12 @@ const styles = {
   expPanEven: {
     //backgroundColor: 'gainsboro',
     backgroundColor: '#ededed',
+    marginTop: '16px',
   },
   expPanOdd: {
     backgroundColor: 'gainsboro',
+    marginTop: '16px',
+    marginBottom: '16px',
     //backgroundColor: '#ededed',
   },
 };
@@ -69,7 +71,7 @@ class ServicesTextContainer extends React.Component {
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
-      <ExpansionPanel  className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
