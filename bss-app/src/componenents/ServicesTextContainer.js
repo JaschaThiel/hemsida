@@ -15,38 +15,68 @@ const styles = {
   },
 };
 
-function Types(props) {
-  const { classes, language } = props;
+function ServicesTextContainer (props) {
+  var { classes, language } = props;
 
   return (
     language === 'se' ?
-    <div className={classes.root}>
+    <div className={classes.root} >
+      <ExpansionPanel defaultExpanded={true} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="penel1a-header"
+        >
+          <Typography variant="inherit" className={classes.heading}>Tjänst 1</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography variant="inherit" paragraph={true} >
+            yada yada text om en tjänst som bara visas om man trycker på rubriken.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
       <ExpansionPanel>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="penel1a-header"
         >
-          <Typography className={classes.heading}>Tjänst 1</Typography>
+          <Typography variant="inherit" className={classes.heading}>Tjänst 1</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography variant="inherit" gutterBottom={true} >
             yada yada text om en tjänst som bara visas om man trycker på rubriken.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <Typography variant="inherit" paragraph={true} >
-        Blabla om Tjänster Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-        dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
-      </Typography>
-      <Typography variant="inherit" gutterBottom={true} >
-      body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-        dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-        dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
-      </Typography>
+      <ExpansionPanel defaultExpanded={true} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="penel1a-header"
+        >
+          <Typography variant="inherit" className={classes.heading}>Tjänst 1</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography variant="inherit" paragraph={true} >
+            yada yada text om en tjänst som bara visas om man trycker på rubriken.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="penel1a-header"
+        >
+          <Typography variant="inherit" className={classes.heading}>Tjänst 1</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography variant="inherit" gutterBottom={true} >
+            yada yada text om en tjänst som bara visas om man trycker på rubriken.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
     </div>
     : language === 'de' ?
     <div className={classes.root}>
@@ -81,9 +111,9 @@ function Types(props) {
   );
 }
 
-Types.propTypes = {
+ServicesTextContainer.propTypes = {
   classes: PropTypes.object.isRequired,
   language: PropTypes.string.isRequired,
 };
 
-export default withStyles(styles)(Types);
+export default withStyles(styles)(ServicesTextContainer);

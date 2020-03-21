@@ -14,6 +14,7 @@ import Fab from '@material-ui/core/Fab';
 import ContactTextContainer from './ContactTextContainer';
 import ContactHeadingContainer from './ContactHeadingContainer';
 import ServicesTextContainer from './ServicesTextContainer';
+import ServicesTextExpansionContainer from './ServicesTextExpansionContainer';
 import ServicesHeadingContainer from './ServicesHeadingContainer';
 import HeadingContainer from './headingcontainer';
 import TextContainer from './textcontainer';
@@ -23,7 +24,7 @@ function TabContainer(props) {
   const { children, dir } = props;
 
   return (
-    <Typography component="div" dir={dir} style={{ padding:0 }}>
+    <Typography component="div" dir={dir} style={{ paddingBottom:100 }}>
       {children}
     </Typography>
   );
@@ -33,6 +34,7 @@ TabContainer.propTypes = {
   children: PropTypes.node.isRequired,
   dir: PropTypes.string.isRequired,
 };
+
 
 const styles = theme => ({
   root: {
@@ -104,6 +106,11 @@ class TabBar extends React.Component {
     window.scrollTo(0,0);
   }
 
+  updateHeight() {
+    this.swipeableActions.updateHeight();
+    console.log('TabBar update height');
+  }
+
   render() {
     const { classes, theme } = this.props;
     return (
@@ -141,10 +148,11 @@ class TabBar extends React.Component {
           index={this.state.value}
           onChangeIndex={this.handleChangeIndex}
           action={actions => {this.swipeableActions = actions;}}
-          animateHeight={true}
+          animateHeight={false}
+          animateTransitions={true}
           align="center"
         >
-          <TabContainer dir={theme.direction}>
+          <TabContainer dir={theme.direction} >
           <img className={classes.cropped} src={ require('../images/IMG_7588_cropped5.JPG')} alt="im1" />
           <HeadingContainer language={this.state.lang} />
           <TextContainer language={this.state.lang}/>
@@ -153,7 +161,7 @@ class TabBar extends React.Component {
           <TabContainer dir={theme.direction}>
           <img className={classes.cropped} src={ require('../images/IMG_7715.JPG')} alt="im1"  />
           <ServicesHeadingContainer language={this.state.lang} />
-          <ServicesTextContainer language={this.state.lang} />
+          <ServicesTextExpansionContainer language={this.state.lang} onChange={() => { this.updateHeight() }} />
           </TabContainer>
 
           <TabContainer dir={theme.direction}>
