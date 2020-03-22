@@ -13,7 +13,6 @@ import Fab from '@material-ui/core/Fab';
 
 import ContactTextContainer from './ContactTextContainer';
 import ContactHeadingContainer from './ContactHeadingContainer';
-import ServicesTextContainer from './ServicesTextContainer';
 import ServicesTextExpansionContainer from './ServicesTextExpansionContainer';
 import ServicesHeadingContainer from './ServicesHeadingContainer';
 import HeadingContainer from './headingcontainer';
