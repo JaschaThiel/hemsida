@@ -17,11 +17,13 @@ const styles = {
     fontSize: 25,
     //flexBasis: '33.33%',
     flexShrink: 0,
+    fontWeight: 'bold',
   },
   secondaryHeading: {
     flexBasis: '88.33%',
     fontSize: 20,
     color: '#1b5e20',
+    fontWeight: 'lighter',
   },
   expPanEven: {
     //backgroundColor: 'gainsboro',
@@ -50,7 +52,7 @@ class ServicesTextContainer extends React.Component {
     language === 'se' ?
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} >
-        Blabla info om tjänster som erbjuds osv. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
+        Kanske en liten inledning här? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
         unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
         dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
       </Typography>
@@ -65,9 +67,36 @@ class ServicesTextContainer extends React.Component {
           <Typography variant="inherit" className={classes.secondaryHeading}>Regelbunden kontroll av egendomen</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography variant="inherit" paragraph={true} >
-            yada yada dfghjklölkjhgf text om en tjänst som bara visas om man trycker på rubriken.
-          </Typography>
+          <div>
+            <Typography variant="inherit" paragraph={true} >
+              Regelbunden kontroll av egendomen kan minska risken för inbrott eftersom det blir mer rörelse på tomten.
+              Det kan också medföra att skador kan undvikas genom att risker upptäckas innan skadan har skett.
+              Och när skadan väl är framme leder en tidig upptäckt till en avsevärd minskning av följdskador
+              (vilket är anledningen för att regelbundna tillsynsbesök står långt upp på försäkringsbolagens önskelista).
+              Sist men inte minst slipper du som ägare eller dina gäster oönskade överraskningar vid ankomst till stugan.
+            </Typography>
+            <Typography variant="inherit" paragraph={true} align="left" >
+              Tillsynsbesök utförs regelbundet i den takt du önskar, dock oregelbundet på så sätt att det inte skapas ett avläsbart mönster
+              (t.ex. någon dag varannan vecka, men inte varannan torsdag). Tillsynsbesök utförs också efter särskilda händelser
+              (storm, översvämningar, stora snömängder, skogsbrand mm). Dessa extra besök behöver inte nödvändigtvis medföra ytterligare kostnader
+              utan om möjligt förskjuts bara takten av de vanliga tillsynsbesöken.
+            </Typography>
+            <Typography variant="inherit" paragraph={true} >
+              Tillsynsbesök utförs utomhus (kontroll av tomten och byggnader bl.a. gällande inbrott, skador
+              eller risk för skador genom särskilda händelser, skador genom djur) och inomhus (kontroll av
+              intrång av/skador genom djur, frostskador mm).
+              I tillsynsbesök kan även ingå bl.a:
+            </Typography>
+            <Typography variant="inherit" paragraph={true} align="left" >
+              <ul>
+                <li>Kontroll av timers</li>
+                <li>Kontroll av värmeelement (ifall de används som frostskydd)</li>
+                <li>Påfyllning av vattenlås och golvbrunnar (som kan torka ut när huset inte används en längre tid och då sprider sig en mycket otrevligt lukt)</li>
+                <li>Uppsättning, kontroll och tömning/byte av fällor</li>
+                <li>Omkringflyttande av trädgårdsmöbler och andra föremål (för att skapa intrycket av att huset är bebott)</li>
+              </ul>
+            </Typography>
+          </div>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -78,6 +107,7 @@ class ServicesTextContainer extends React.Component {
           id="penel2a-header"
         >
           <Typography color="secondary" variant="inherit" className={classes.heading}>Skadehantering</Typography>
+          <Typography variant="inherit" className={classes.secondaryHeading}>Här kan man ha en kort sammanfattning om det behövs</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails >
           <div>
