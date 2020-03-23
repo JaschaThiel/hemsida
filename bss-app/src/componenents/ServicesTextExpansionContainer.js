@@ -8,6 +8,15 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import ServicesTextTillsynContainer from './textContainers/ServicesTextTillsynContainer';
 import ServicesTextSkadehanteringContainer from './textContainers/ServicesTextSkadehanteringContainer';
+import ServicesTextTradgardsarbetenContainer from './textContainers/ServicesTextTradgardsarbetenContainer';
+import ServicesTextRenoveringContainer from './textContainers/ServicesTextRenoveringContainer';
+import ServicesTextMaterialContainer from './textContainers/ServicesTextMaterialContainer';
+import ServicesTextSnoContainer from './textContainers/ServicesTextSnoContainer';
+import ServicesTextVinterContainer from './textContainers/ServicesTextVinterContainer';
+import ServicesTextFastighetContainer from './textContainers/ServicesTextFastighetContainer';
+import ServicesTextPrisContainer from './textContainers/ServicesTextPrisContainer';
+
+
 
 const styles = {
   root: {
@@ -17,7 +26,7 @@ const styles = {
     paddingRight: '5vw',
   },
   heading: {
-    flexBasis: '40%',
+    flexBasis: '60%',
     fontSize: 25,
     flexShrink: 0,
     fontWeight: 'bold', 
@@ -53,8 +62,11 @@ class ServicesTextContainer extends React.Component {
     language === 'se' ?
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        Kanske en liten inledning här? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus.
+        Nedan hittar du tjänsteutbudet. Klicka på pilen till höger i rutan för att läsa mer och likaså för att minimera rutan igen.
+        Behöver du något som inte finns med i tjänsteutbudet? Det är bara att höra av dig till mig så hittar vi en lösning.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align ="left" >
+        Information om prissättning hittar du längst ner.
       </Typography>
 
       <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
@@ -91,12 +103,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel3a-content"
           id="penel3a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Tjänst 3</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Trädgårdsarbeten</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography variant="inherit" paragraph={true} align="left" >
-            yada yada dfghjklölkjhgf text om en tjänst som bara visas om man trycker på rubriken.
-          </Typography>
+          <ServicesTextTradgardsarbetenContainer></ServicesTextTradgardsarbetenContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -106,19 +116,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel4a-content"
           id="penel4a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Tjänst 4</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renoverings- och byggarbeten</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography variant="inherit" paragraph={true} align="left" >
-            Blabla info zu für was man so sein geld ausgeben kann Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-            unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-            dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
-            body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-            unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-            dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-            unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-            dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
-          </Typography>
+          <ServicesTextRenoveringContainer></ServicesTextRenoveringContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -128,20 +129,70 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel5a-content"
           id="penel5a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Tjänst 5</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Framställning och bortforsling av material</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography variant="inherit" paragraph={true} align="left" >
-            yada yada dfghjklölkjhgf text om en tjänst som bara visas om man trycker på rubriken.
-          </Typography>
+          <ServicesTextMaterialContainer></ServicesTextMaterialContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <Typography variant="inherit" gutterBottom={true} align="left" >
-        Blabla info Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-        dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
-      </Typography>
+
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel6a-content"
+          id="penel6a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Snöskottning</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <ServicesTextSnoContainer></ServicesTextSnoContainer>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel7a-content"
+          id="penel7a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Vintersäkring/i bruk sättning av stugan</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <ServicesTextVinterContainer></ServicesTextVinterContainer>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel8a-content"
+          id="penel8a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Fastighets- och gästservice</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <ServicesTextFastighetContainer></ServicesTextFastighetContainer>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel9a-content"
+          id="penel9a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Prissättning</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <ServicesTextPrisContainer></ServicesTextPrisContainer>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
     </div>
+
+
     : language === 'de' ?
     <div className={classes.root}>
       <Typography variant="inherit" paragraph={true} >

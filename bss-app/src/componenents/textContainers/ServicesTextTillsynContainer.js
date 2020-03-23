@@ -25,16 +25,16 @@ function ServicesTextTillsynContainer (props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         Tillsynsbesök utförs regelbundet i den takt du önskar, dock oregelbundet på så sätt att det inte skapas ett avläsbart mönster
         (t.ex. någon dag varannan vecka, men inte varannan torsdag). Tillsynsbesök utförs också efter särskilda händelser
-        (storm, översvämningar, stora snömängder, skogsbrand mm). Dessa extra besök behöver inte nödvändigtvis medföra ytterligare kostnader
-        utan om möjligt förskjuts bara takten av de vanliga tillsynsbesöken.
+        (storm, översvämningar, stora snömängder, skogsbrand mm). Dessa extra besök behöver inte nödvändigtvis medföra ytterligare
+        kostnader utan om möjligt förskjuts bara takten av de vanliga tillsynsbesöken.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Tillsynsbesök utförs utomhus (kontroll av tomten och byggnader bl.a. gällande inbrott, skador
         eller risk för skador genom särskilda händelser, skador genom djur) och inomhus (kontroll av
-        intrång av/skador genom djur, frostskador mm).
-        I tillsynsbesök kan även ingå bl.a:
+        intrång/skador genom djur, frostskador mm).
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
+        I tillsynsbesök kan även ingå bl.a.
         <ul>
           <li>Kontroll av timers</li>
           <li>Kontroll av värmeelement (ifall de används som frostskydd)</li>
