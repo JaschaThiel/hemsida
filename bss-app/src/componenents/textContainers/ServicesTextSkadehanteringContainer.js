@@ -16,7 +16,7 @@ function ServicesTextSkadehanteringContainer (props) {
   return (
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        <u>Administrativt skadehantering:</u> T.ex. polisanmälan vid inbrott och kontakt med
+        <u>Administrativt skadehantering:</u> T.ex. polisanmälan vid inbrott, kontakt med
         försäkringsbolaget.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left">

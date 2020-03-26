@@ -8,6 +8,10 @@ const styles = {
   root: {
     fontSize: 25,
   },
+  bullets: {
+    marginTop: '0px',
+    marginBottom: '24px',
+  },
 };
 
 function ServicesTextTillsynContainer (props) {
@@ -35,7 +39,7 @@ function ServicesTextTillsynContainer (props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         I tillsynsbesök kan även ingå bl.a.
-        <ul>
+        <ul className={classes.bullets} >
           <li>Kontroll av timers</li>
           <li>Kontroll av värmeelement (ifall de används som frostskydd)</li>
           <li>Påfyllning av vattenlås och golvbrunnar (som kan torka ut när huset inte används

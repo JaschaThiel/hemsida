@@ -8,6 +8,10 @@ const styles = {
   root: {
     fontSize: 25,
   },
+  bullets: {
+    marginTop: '0px',
+    marginBottom: '24px',
+  },
 };
 
 function ServicesTextRenoveringContainer (props) {
@@ -20,7 +24,7 @@ function ServicesTextRenoveringContainer (props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Här finns det flera möjligheter:
-        <ul>
+        <ul className={classes.bullets} >
           <li>Jag kan hjälpa dig och renovera/bygga med dig tillsammans. Det är oftast enklare och också roligare med fler händer.</li>
           <li>Jag kan också renovera/bygga åt dig när du inte är på plats. Då har du din semester i stugan som riktig semester.
             När renovering eller bygget gäller badrum och kök kan det vara lämpligt att huset inte är bebott under den tiden.</li>

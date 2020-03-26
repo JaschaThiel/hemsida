@@ -8,6 +8,10 @@ const styles = {
   root: {
     fontSize: 25,
   },
+  bullets: {
+    marginTop: '0px',
+    marginBottom: '24px',
+  },
 };
 
 function ServicesTextFastighetContainer (props) {
@@ -24,32 +28,32 @@ function ServicesTextFastighetContainer (props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Turistpärm</u><br></br>
-        Jag erbjuder att upprätta en pärm med material kring sevärdheter och andra turistmål samt att uppdatera dem årligen.
+        Jag erbjuder att upprätta en pärm med material kring sevärdheter och andra turistmål samt att uppdatera den årligen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Service kring din eller dina gästers vistelse i stugan</u><br></br>
         Innan ankomsten*
-        <ul>
+        <ul className={classes.bullets} >
           <li>Borttagning och tömning av fällor</li>
           <li>vädring</li>
           <li>Uppvärmning</li>
         </ul>
         Vid ankomsten
-        <ul>
+        <ul className={classes.bullets} >
           <li>Nyckelöverlämning</li>
           <li>Hus- och tomtintroduktion</li>
         </ul>
         Under vistelsen
-        <ul>
+        <ul className={classes.bullets} >
           <li>Kontaktperson för frågor/problem kring fastigheten (gäller kontorstider) </li>
         </ul>
         Vid avresan
-        <ul>
+        <ul className={classes.bullets} >
           <li>Hämtning av nyckel</li>
           <li>Slutkontroll (kontroll av inventarier och utförandet av städning)</li>
         </ul>
         Efter avresan
-        <ul>
+        <ul className={classes.bullets} >
           <li>Slutstädning (jag organiserar slutstädning genom ett städföretag)</li>
           <li>Tvätt (inlämning till och hämtning från tvätteriet)</li>
           <li>Utplacering av fällor</li>

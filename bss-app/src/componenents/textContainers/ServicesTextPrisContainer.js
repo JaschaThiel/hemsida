@@ -8,6 +8,10 @@ const styles = {
   root: {
     fontSize: 25,
   },
+  bullets: {
+    marginTop: '0px',
+    marginBottom: '24px',
+  },
 };
 
 function ServicesTextSnoContainer (props) {
@@ -17,13 +21,13 @@ function ServicesTextSnoContainer (props) {
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
         Fastigheternas förutsättningar samt ägarnas önskemål och behoven är mycket olika.
-        Därför är det inte möjligt att här anger priser för enskilda tjänster.
+        Därför är det inte möjligt att här ange priser för enskilda tjänster.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         När du har berättat för mig vilka tjänster i vilken utformning du önskar och jag har tittat på din fastighet ger jag dig en offert.
         Mitt offertbesök är gratis om du finns på plats. Är du inte på plats kommer du med mitt offertbesök per automatik få ett tillsynsbesök
         som jag fakturerar dig pauschalt med 500:- kr inkl. moms (400:- kr ex. moms).
-        <ul>
+        <ul className={classes.bullets} >
           <li>För de flesta tjänster/uppdrag kan du få en offert med fast pris.</li>
           <li>Det är möjligt att skapa tjänstepaket enligt dina önskemål och behov.
             På paket med ett fakturavärde över 10000:- kr ger jag 5% rabatt och på paket med ett fakturavärde över 20000:- kr

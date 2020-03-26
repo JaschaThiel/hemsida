@@ -8,6 +8,10 @@ const styles = {
   root: {
     fontSize: 25,
   },
+  bullets: {
+    marginTop: '0px',
+    marginBottom: '24px',
+  },
 };
 
 function ServicesTextVinterContainer (props) {
@@ -17,7 +21,7 @@ function ServicesTextVinterContainer (props) {
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
         Vintersäkring av stugan omfattar bl.a.
-        <ul>
+        <ul className={classes.bullets} >
           <li>Avstängning av vatten och tömning av vattensystemet</li>
           <li>Förse vattenlås och golvbrunnar med frostskydd (jag använder endast miljövänlig sådan)</li>
           <li>Säkerställa att dörrar av kyl och frys står på glänt</li>
@@ -35,7 +39,7 @@ function ServicesTextVinterContainer (props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         I bruk sättning av stugan omfattar bl.a.
-        <ul>
+        <ul className={classes.bullets} >
           <li>Öppning och påfyllning av vattensystemet, påslagning av el</li>
           <li>Spola vattenlås och golvbrunnar</li>
           <li>Sätta på el och sätta i de kontakter som behövs (t.ex. kyl och frys)</li>
@@ -43,7 +47,6 @@ function ServicesTextVinterContainer (props) {
           <li>Vädring</li>
           <li>Framställning av sopkärl.</li>
         </ul>
-        Ifall vattensystemet inte går att tömma ingår påsättning av värmeelement som frostskydd (och då stängs inte av elen så klart).
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Vår och höst</u><br></br>

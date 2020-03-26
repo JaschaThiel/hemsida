@@ -22,7 +22,7 @@ function ServicesTextMaterialContainer (props) {
         veckan är för kort för att förlora tid med att köpa materialet eller hantera byggavfallet.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Framställning kan gäller byggmaterial, jord, ved mm. Bortforsling kan bl.a. gäller trädgårds- och byggavfall, skrot och sopor.
+        <u>Framställning</u> kan gäller byggmaterial, jord, ved mm. <br></br><u>Bortforsling</u> kan bl.a. gäller trädgårds- och byggavfall, skrot och sopor.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         När jag tar hand om avfall, skrot eller sopor åt dig kan du vara säker på att jag följer de regelverk som gäller
