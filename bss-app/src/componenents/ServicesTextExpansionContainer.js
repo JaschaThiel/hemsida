@@ -76,7 +76,7 @@ class ServicesTextContainer extends React.Component {
           id="penel1a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Tillsyn</Typography>
-          <Typography align="left" variant="inherit" className={classes.secondaryHeading}>Regelbunden kontroll av egendomen</Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextTillsynContainer></ServicesTextTillsynContainer>
@@ -90,7 +90,7 @@ class ServicesTextContainer extends React.Component {
           id="penel2a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Skadehantering</Typography>
-          <Typography align="left" variant="inherit" className={classes.secondaryHeading}>Administrativ och praktisk skadehantering</Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails >
           <ServicesTextSkadehanteringContainer></ServicesTextSkadehanteringContainer>

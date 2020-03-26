@@ -10,6 +10,10 @@ const styles = {
     paddingLeft: '5vw',
     paddingRight: '5vw',
   },
+  bullets: {
+    marginTop: '0px',
+    marginBottom: '24px',
+  },
 };
 
 function Types(props) {
@@ -19,17 +23,70 @@ function Types(props) {
 
     language === 'se' ? 
     <div className={classes.root}>
-      <Typography variant="inherit" paragraph={true} >
-      Löksås ipsum hav redan sax där om sax tid gamla del, på groda bra blev ta icke samtidigt enligt se, 
-      händer äng mjuka samtidigt år faktor därmed flera nu. Faktor för vidsträckt därmed sitt träutensilierna rännil söka att ingalunda, 
-      samma sällan dimma nya häst söka och plats hav, om göras händer av redan söka smultron sig. 
-      Fram det se oss i ska bra smultron genom hela tiden sällan som, nu göras regn vi där miljoner det vid häst har. 
+      <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
+          Tillsyn med omsorg
       </Typography>
-      <Typography variant="inherit" gutterBottom={true} >
-      År för det så som gör dunge, annan och år träutensilierna tid, vad verkligen dimma icke redan. 
-      Nu ingalunda det sorgliga det äng nya ska dimmhöljd gör, jäst regn bland fram sin fram vi dimma ta, 
-      regn dimmhöljd åker för dag mot nya dunge. Bra annan faktor som blivit ska bra på, strand ta sitt icke samma åker, 
-      erfarenheter samma det björnbär tid dunge.
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Blekinge stugservice erbjuder ett brett urval av tjänster kring din stuga. Genom dessa tjänster,
+        som kombineras och utformas helt efter dina önskemål och behoven, får du många fördelar:
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Information</b><br></br>
+        Du får regelbunden information om din egendom och eventuella händelser. Samtidigt uppfyller du försäkringsbolagens önskemål om regelbunden tillsyn.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Hjälp och stöd</b><br></br>
+        Du får hjälp och stöd med många frågor och projekt. Det kan bland annat gälla:
+        <ul className={classes.bullets}>
+          <li>Trädgård</li>
+          <li>Skadehantering</li>
+          <li>Renovering och bygg</li>
+          <li>Uthyrning</li>
+          <li>Drift och underhåll</li>
+          <li>Administrativa frågor</li>
+        </ul>
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+      <b>Trygghet</b><br></br>
+      Rörelse på din fastighet i tider då stugan står tom och ett vårdat intryck av tomten minskar risken för inbrott och skadegörelse.
+      Du vet, vad som händer på din tomt och skador kan undvikas eller minimeras.
+      Men du får också trygghet i t.ex. att allt är som det ska när du eller dina gäster anländer till stugan. 
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+      <b>Du slipper oroa dig</b><br></br>
+      Det finns mycket att oroa sig för. Det kan vara stora grejer som att oroa sig för t.ex.
+      inbrott eller stormskador eller mindre grejer som skador genom djur, men också kring hur en renovering ska utföras
+      eller vilka formaliteter man behöver ta hänsyn till. Genom tjänsterna som Blekinge stugservice erbjuder slipper du mycket av oron.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+      <b>Återhämtning från dag ett!</b><br></br>
+      Men kanske viktigast av allt är att du kan komma till din stuga, njuta av din semester och återhämta dig från första till sista minut.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} >
+        <b>Jag hugger i där det behövs och drar mig inte för skitjobb!</b><br></br><br></br>
+      </Typography>
+      <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
+      Jag vet vad jag pratar om
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Torpet vi här i Blekinge bor i permanent sedan 2004 köpte vi redan 1997 som sommarstuga.
+        Vi har haft många fina semesterdagar i stugan, men vi har också drabbats av inbrott, stormskador,
+        intrång av djur (mest möss och myror) samt frostskador (om jag nu kommer ihåg allt).
+        <br></br>
+        Jag känner väl till oron om egendomen när den står tom de flesta veckorna under året och den stora osäkerheten som inbrott medför.
+        Likaså känner jag till de stora frågetecken som man kan står inför t.ex. genom en stormskada.
+        För oss bland annat frågan om hur man hanterar en mer än 25 meter lång gran som har lagt sig över ladan.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Innan semestern i stugan kunde börja för oss fanns det alltid mycket att göra.
+        Beroende på årstid och väder kunde det ta upp till tre dagar, innan allt var gjort.
+        Och ibland var det ganska krävande - att efter en dags resa på kvällen anländer till en stuga där det är inne lika
+        många minusgrader som ute är minst sagt utmanande, särskilt med små barn.
+      </Typography>
+      <Typography variant="inherit" gutterBottom={true} align="left" >
+        Allt arbete som krävs att få tillrätta stugan och trädgården både för att kunna vistas där och för att kunna
+        lämna den tom i flera veckor eller månader, men också allt arbete som underhåll och renovering krävs minskar
+        inte bara tiden för semester och återhämtning. Den minskar också tiden för mys, lek och upplevelser med dina nära och kära. 
       </Typography>
     </div>
     : language === 'de' ?
