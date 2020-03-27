@@ -97,7 +97,8 @@ function Types(props) {
         Passen Ihnen die Zeiten nicht? Schicken Sie mir eine Nachricht mit einem Zeitvorschlag, ich rufe Sie dann an.<br></br><br></br>
         <u>Anschrift:</u><br></br>
         Sävsjömålavägen 34<br></br>
-        37262 Bräkne-Hoby<br></br><br></br>
+        37262 Bräkne-Hoby<br></br>
+        Schweden<br></br><br></br>
         Die Firma ist beim schwedischen Finanzamt registriert.
         <br></br><br></br>
       </Typography>
@@ -144,9 +145,10 @@ function Types(props) {
         If the the phone hours do not work with you, or you have trouble getting a hold of me during them,
         please send me a message and I will get back to you as soon as possible.
         <br></br><br></br>
-        <u>Postadress:</u><br></br>
+        <u>Mailing address:</u><br></br>
         Sävsjömålavägen 34<br></br>
-        37262 Bräkne-Hoby<br></br><br></br>
+        37262 Bräkne-Hoby<br></br>
+        Sweden<br></br><br></br>
       </Typography>
     </div>
   );
