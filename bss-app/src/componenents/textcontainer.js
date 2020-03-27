@@ -90,23 +90,76 @@ function Types(props) {
     </div>
     : language === 'de' ?
     <div className={classes.root}>
-    <Typography variant="inherit" paragraph={true} >
-      Deutsches Ipsum Dolor deserunt Gemeinsamkeit has Sauerkraut Tollit Anwendungsprogrammierschnittstelle
-       ius Faust Saepe Meerschweinchen elaboraret Schnaps ne, Warmduscher eu Warmduscher pertinax, 
-       Milchreis eripuit Guten Tag no Gesundheit Diam Weihnachten no Bier eos Ich habe fertig suscipit 
-       Die unendliche Geschichte Eam Ampelmännchen offendit Brezel ad Polizei voluptatibus HugoClub Mate ad Umsatzanalyse consul Faust vix. 
-       Audi quas Mercedes Benz veritus Lebkuchen latine Siebentausendzweihundertvierundfünfzig complectitur 
-       HugoClub Mate mea Die Toten Hosen denique Frau Professor id. Die unendliche Geschichte expetenda Joachim Löw an, 
-       Faust ei Fußballweltmeisterschaft euismod Müller Rice Odio Flughafen iracundia Erbsenzähler pri. danke vel Ritter Sport mandamus, 
-       Guten Tag natum Wiener Würstchen ei Mettwurst diam Döner honestatis Currywurst nö.
-    </Typography>
-    <Typography variant="inherit" paragraph={true} >
-      quo Faust posidonium Helmut Kohl adhuc Entschuldigung sadipscing Ampelmännchen at, 
-      Hochzeit mei Mettwurst gloriatur. Autobahn inermis Fernweh accommodare Oktoberfest 
-      Id Warmduscher assum Juttensack te Döner erroribus Welt Nec Riesling amet Bretzel iriure, 
-      Knappwurst gloriatur Hackfleisch ut. Käsefondue virtute Faust per Köln At Bier scaevola 
-      Ich bin ein Berliner An Schnaps malorum Erbsenzähler ius
-    </Typography>
+      <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} >
+        Dein Ferienhaus, Deine Erholung - meine Arbeit      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Blekinge Ferienhausservice bietet eine breite Palette an Dienstleistungen für Sie und Ihr Ferienhaus.
+        Durch diese Dienstleistungen, die nach Ihren Wünschen und Bedürfnissen ausgestaltet und kombiniert werden, haben Sie viele Vorteile:
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Information</b><br></br>
+        Sie erhalten regelmässig Information über Ihr Ferienhaus und über eventuelle Geschehnisse.
+        Damit erfüllen Sie auch den Wunsch der Versicherungsgesellschaften nach regelmässigen Kontrollbesuchen.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Hilfe und Unterstützung</b><br></br>
+        Sie bekommen Hilfe und Unterstützung für viele Fragen und Projekte. Dabei kann es sich unter anderem um Folgendes handeln:
+        <ul className={classes.bullets}>
+          <li>Gartenarbeit/-projekte</li>
+          <li>Schadenshantierung/-regulierung</li>
+          <li>Renovierungs- und Bauprojekte</li>
+          <li>Vermietung</li>
+          <li>Betrieb und Unterhalt</li>
+          <li>Administrative Fragen</li>
+        </ul>
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Sicherheit</b><br></br>
+        Mehr Bewegung auf Ihrem Grundstück zu Zeiten, da Ihr Ferienhaus leer steht,
+        sowie ein gepflegter Eindruck minimieren das Risiko für Einbruch und Sachbeschädigung.
+        Sie wissen, was auf Ihrem Grundstück passiert und Schäden können vermieden oder zumindest verringert werden.
+        Darüber hinaus erhalten Sie aber z. B. auch Sicherheit darüber, dass bei Ihrer Ankunft oder der Ankunft Ihrer Gäste alles so ist, wie es sein soll.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Sie brauchen sich nicht mehr zu beunruhigen</b><br></br>
+        Es gibt vieles, worüber man unruhig sein kann. Das können grosse Sachen sein wie z. B.
+        Einbruch oder Sturmschäden oder auch kleinere wie etwa Schäden durch Tiere.
+        Aber auch Fragen eine bevorstehende Renovierung betreffend und die zu berücksichtigen Formalitäten können beunruhigen.
+        Mit den Dienstleistungen von Blekinge Ferienhausservice können Sie sich viele Sorgen ersparen.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Erholung vom ersten Tag!</b><br></br>
+        Vielleicht das Wichtigste von allem: Sie können zu Ihrem Ferienhaus kommen und Ihren Urlaub voll und ganz geniessen,
+        Sie können sich von der ersten bis zur letzten Minute erholen.
+        <br></br><br></br>
+      </Typography>
+      <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
+        Ich weiss, wovon ich rede
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Das Haus, in dem wir hier in Blekinge seit 2004 fest wohnen, hatten wir bereits 1997 als Ferienhaus gekauft.
+        Wir haben hier viele fantastische Urlaubstage erlebt, waren aber auch betroffen von Einbruch, Sturmschäden,
+        Schäden durch Tiere (hauptsächlich Mäuse und Ameisen) und Frostschäden (falls ich nichts vergessen habe).
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Ich erinnere gut die Unruhe während der meisten Wochen des Jahres, da das Haus leer stand,
+        sowie die grosse Unsicherheit, die der Einbruch mit sich brachte.
+        Genauso kenne ich die große Ratlosigkeit nach z. B. Sturmschäden.
+        Für uns unter anderem die Frage, wie man mit einer mehr als 25 Meter grossen Tanne umgeht, die sich auf die Scheune gelegt hatte.
+        Und natürlich erinnere ich mich an die Sorge bei jeder Anreise, ob denn wohl alles gut gehen würde oder welche Schäden und Probleme einen erwarten.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Bevor der Urlaub in unserem Ferienhaus beginnen konnte, gab es immer viel zu tun.
+        Abhängig von Jahreszeit und Wetter konnte es bis zu drei Tagen dauern, bis alles erledigt war.
+        Und nicht immer war es lustig: Nach einem Tag Reise abends am Ferienhaus ankommen,
+        bei dem drinnen genauso viele Minusgrade herrschten wie draussen ist herausfordernd - insbesondere mit kleinen Kindern.
+      </Typography>
+      <Typography variant="inherit" gutterBottom={true} align="left" >
+        Alle Arbeit, um das Ferienhaus herzurichten - sowohl um sich dort aufhalten zu könne,
+        wie auch um es für viele Wochen leer stehen zu lassen - aber auch alle Arbeit für Unterhalt und Renovierung
+        verkürzt nicht nur die Zeit für Urlaub und Erholung. Sie verringert auch die Zeit für Gemütlichkeit,
+        Spiel und Erlebnisse mit den Nächsten und Liebsten.
+      </Typography>
     </div>
     :
     <div className={classes.root}>
