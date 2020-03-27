@@ -6,16 +6,25 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import { ExpansionPanelSummary, ExpansionPanelDetails } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-import ServicesTextTillsynContainer from './textContainers/ServicesTextTillsynContainer';
-import ServicesTextSkadehanteringContainer from './textContainers/ServicesTextSkadehanteringContainer';
-import ServicesTextTradgardsarbetenContainer from './textContainers/ServicesTextTradgardsarbetenContainer';
-import ServicesTextRenoveringContainer from './textContainers/ServicesTextRenoveringContainer';
-import ServicesTextMaterialContainer from './textContainers/ServicesTextMaterialContainer';
-import ServicesTextSnoContainer from './textContainers/ServicesTextSnoContainer';
-import ServicesTextVinterContainer from './textContainers/ServicesTextVinterContainer';
-import ServicesTextFastighetContainer from './textContainers/ServicesTextFastighetContainer';
-import ServicesTextPrisContainer from './textContainers/ServicesTextPrisContainer';
+import ServicesTextTillsynContainer from './textContainers/se/ServicesTextTillsynContainer';
+import ServicesTextSkadehanteringContainer from './textContainers/se/ServicesTextSkadehanteringContainer';
+import ServicesTextTradgardsarbetenContainer from './textContainers/se/ServicesTextTradgardsarbetenContainer';
+import ServicesTextRenoveringContainer from './textContainers/se/ServicesTextRenoveringContainer';
+import ServicesTextMaterialContainer from './textContainers/se/ServicesTextMaterialContainer';
+import ServicesTextSnoContainer from './textContainers/se/ServicesTextSnoContainer';
+import ServicesTextVinterContainer from './textContainers/se/ServicesTextVinterContainer';
+import ServicesTextFastighetContainer from './textContainers/se/ServicesTextFastighetContainer';
+import ServicesTextPrisContainer from './textContainers/se/ServicesTextPrisContainer';
 
+//import  from './textContainers/de/';
+//import  from './textContainers/de/';
+//import  from './textContainers/de/';
+//import  './textContainers/de/';
+//import  from './textContainers/de/';
+//import  from './textContainers/de/';
+//import  from './textContainers/de/';
+//import  from './textContainers/de/';
+//import  from './textContainers/de/';
 
 
 const styles = {
@@ -198,18 +207,126 @@ class ServicesTextContainer extends React.Component {
 
     : language === 'de' ?
     <div className={classes.root}>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Kommt noch ...
+      </Typography>
       <Typography variant="inherit" paragraph={true} >
-        Blabla info zu für was man so sein geld ausgeben kann Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-        dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+        <b>Kommt noch ...</b><br></br>
       </Typography>
-      <Typography variant="inherit" gutterBottom={true} >
-      body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-        dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-        unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-        dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+      <Typography variant="inherit" paragraph={true} align ="left" >
+        Kommt noch ...
       </Typography>
+
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel11a-content"
+          id="penel11a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel12a-content"
+          id="penel12a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails >
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel13a-content"
+          id="penel13a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel14a-content"
+          id="penel14a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel15a-content"
+          id="penel15a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel16a-content"
+          id="penel16a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel17a-content"
+          id="penel17a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel18a-content"
+          id="penel18a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel19a-content"
+          id="penel19a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
     </div>
     :
     <div className={classes.root}>
