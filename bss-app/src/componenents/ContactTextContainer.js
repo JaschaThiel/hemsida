@@ -142,7 +142,7 @@ function Types(props) {
         Social media: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Phone hours:</u><br></br>
         Weekdays kl. 09:00 - 16:00<br></br>
-        If the the phone hours do not work with you, or you have trouble getting a hold of me during them,
+        If the phone hours do not work for you, or you have trouble getting a hold of me during them,
         please send me a message and I will get back to you as soon as possible.
         <br></br><br></br>
         <u>Mailing address:</u><br></br>

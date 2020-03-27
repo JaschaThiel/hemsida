@@ -61,6 +61,7 @@ function Types(props) {
       <Typography variant="inherit" paragraph={true} align="left" >
       <b>Återhämtning från dag ett!</b><br></br>
       Men kanske viktigast av allt är att du kan komma till din stuga, njuta av din semester och återhämta dig från första till sista minut.
+      <br></br><br></br>
       </Typography>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
       Jag vet vad jag pratar om
