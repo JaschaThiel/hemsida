@@ -65,6 +65,9 @@ class ServicesTextContainer extends React.Component {
         Nedan hittar du tjänsteutbudet. Klicka på pilen till höger i rutan för att läsa mer och likaså för att minimera rutan igen.
         Behöver du något som inte finns med i tjänsteutbudet? Det är bara att höra av dig till mig så hittar vi en lösning.
       </Typography>
+      <Typography variant="inherit" paragraph={true} >
+        <b>Jag hugger i där det behövs och drar mig inte för skitjobb!</b><br></br>
+      </Typography>
       <Typography variant="inherit" paragraph={true} align ="left" >
         Information om prissättning hittar du längst ner.
       </Typography>
@@ -211,7 +214,7 @@ class ServicesTextContainer extends React.Component {
     :
     <div className={classes.root}>
       <Typography variant="inherit" paragraph={true} >
-        Enlgish site coming soon, stay tuned!
+        English site coming soon, stay tuned!
       </Typography>
     </div>
   );

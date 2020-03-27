@@ -23,7 +23,7 @@ function Types(props) {
 
     language === 'se' ? 
     <div className={classes.root}>
-      <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
+      <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} >
           Tillsyn med omsorg
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
@@ -62,9 +62,6 @@ function Types(props) {
       <b>Återhämtning från dag ett!</b><br></br>
       Men kanske viktigast av allt är att du kan komma till din stuga, njuta av din semester och återhämta dig från första till sista minut.
       </Typography>
-      <Typography variant="inherit" paragraph={true} >
-        <b>Jag hugger i där det behövs och drar mig inte för skitjobb!</b><br></br><br></br>
-      </Typography>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
       Jag vet vad jag pratar om
       </Typography>
@@ -72,7 +69,8 @@ function Types(props) {
         Torpet vi här i Blekinge bor i permanent sedan 2004 köpte vi redan 1997 som sommarstuga.
         Vi har haft många fina semesterdagar i stugan, men vi har också drabbats av inbrott, stormskador,
         intrång av djur (mest möss och myror) samt frostskador (om jag nu kommer ihåg allt).
-        <br></br>
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
         Jag känner väl till oron om egendomen när den står tom de flesta veckorna under året och den stora osäkerheten som inbrott medför.
         Likaså känner jag till de stora frågetecken som man kan står inför t.ex. genom en stormskada.
         För oss bland annat frågan om hur man hanterar en mer än 25 meter lång gran som har lagt sig över ladan.
@@ -80,8 +78,8 @@ function Types(props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         Innan semestern i stugan kunde börja för oss fanns det alltid mycket att göra.
         Beroende på årstid och väder kunde det ta upp till tre dagar, innan allt var gjort.
-        Och ibland var det ganska krävande - att efter en dags resa på kvällen anländer till en stuga där det är inne lika
-        många minusgrader som ute är minst sagt utmanande, särskilt med små barn.
+        Och ibland var det ganska krävande - att efter en dags resa på kvällen anlända till en stuga där det är lika
+        många minusgrader inomhus som utomhus är minst sagt utmanande, särskilt med små barn.
       </Typography>
       <Typography variant="inherit" gutterBottom={true} align="left" >
         Allt arbete som krävs att få tillrätta stugan och trädgården både för att kunna vistas där och för att kunna
@@ -112,7 +110,7 @@ function Types(props) {
     :
     <div className={classes.root}>
     <Typography variant="inherit" paragraph={true} >
-      Enlgish site coming soon, stay tuned!
+      English site coming soon, stay tuned!
     </Typography>
     </div>
   );

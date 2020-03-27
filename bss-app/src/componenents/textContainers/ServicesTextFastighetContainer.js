@@ -24,7 +24,7 @@ function ServicesTextFastighetContainer (props) {
         Att ha en uppsättning nycklar till din fastighet på en extern plats nära din fastighet har en del fördelar.
         Exempelvis när du glömmer dina nycklar hemma eller kommer ha gäster i stugan men inte hinner skicka med nycklarna. 
         Det är en förutsättning att jag har nycklar eller koder till din fastighet om du önskar tillsynsbesök. 
-        En annan fördel för dig skulle vara att jag kan säkerställa tillgängligheten för t.ex. hantverkare, sotare eller städare..
+        En annan fördel för dig skulle vara att jag kan säkerställa tillgängligheten för t.ex. hantverkare, sotare eller städare.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Turistpärm</u><br></br>
@@ -35,7 +35,7 @@ function ServicesTextFastighetContainer (props) {
         Innan ankomsten*
         <ul className={classes.bullets} >
           <li>Borttagning och tömning av fällor</li>
-          <li>vädring</li>
+          <li>Vädring</li>
           <li>Uppvärmning</li>
         </ul>
         Vid ankomsten

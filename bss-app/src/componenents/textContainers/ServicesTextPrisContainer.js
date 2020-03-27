@@ -20,7 +20,7 @@ function ServicesTextSnoContainer (props) {
   return (
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        Fastigheternas förutsättningar samt ägarnas önskemål och behoven är mycket olika.
+        Fastigheternas förutsättningar samt ägarnas önskemål och behov är mycket olika.
         Därför är det inte möjligt att här ange priser för enskilda tjänster.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
@@ -30,10 +30,10 @@ function ServicesTextSnoContainer (props) {
         <ul className={classes.bullets} >
           <li>För de flesta tjänster/uppdrag kan du få en offert med fast pris.</li>
           <li>Det är möjligt att skapa tjänstepaket enligt dina önskemål och behov.
-            På paket med ett fakturavärde över 10000:- kr ger jag 5% rabatt och på paket med ett fakturavärde över 20000:- kr
-            får du 10% rabatt.</li>
+              På paket med ett fakturavärde över 10000:- kr ger jag 5% rabatt och på paket med ett
+              fakturavärde över 20000:- kr får du 10% rabatt.</li>
           <li>I vissa fall kan sammanslagning av tjänster påverkar priset.
-            Kan t.ex. gräsklippning och tillsynsbesök ske samtidigt minskas priset för tillsynsbesöket.</li>
+              Kan t.ex. gräsklippning och tillsynsbesök sker samtidigt minskas priset för tillsynsbesöket.</li>
           <li>Som riktvärde: En timme kostar 360:- kr exklusive moms, 450:- kr inklusive moms.</li>
           <li>Kunder som uppfyller skatteverkets krav kan få rot- och rutavdrag på för detta godkända tjänster.</li>
         </ul>

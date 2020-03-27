@@ -34,7 +34,7 @@ function ServicesTextRenoveringContainer (props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         För vissa arbeten, särskild inom vvs och el, behövs behörig hantverkare. Jag kan förmedla
-        sådana likaså som andra hantverkare om så behövs och önskas. Är du inte på plats kan jag se till så att allt blir rätt.
+        sådana likaså som andra hantverkare om så behövs eller önskas. Är du inte på plats kan jag se till så att allt blir rätt.
         Och jag kan vara till hjälp med formalia kring ditt bygge/renovering, t.ex. gällande bygglov och andra tillstånd.
       </Typography>
     </div>
