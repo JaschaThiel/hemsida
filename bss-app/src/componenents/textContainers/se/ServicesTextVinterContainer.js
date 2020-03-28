@@ -20,7 +20,7 @@ function ServicesTextVinterContainer (props) {
   return (
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        Vintersäkring av stugan omfattar bl.a.
+        <u>Vintersäkring</u> av stugan omfattar bl.a.
         <ul className={classes.bullets} >
           <li>Avstängning av vatten och tömning av vattensystemet</li>
           <li>Förse vattenlås och golvbrunnar med frostskydd (jag använder endast miljövänlig sådan)</li>
@@ -35,14 +35,17 @@ function ServicesTextVinterContainer (props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         Det kan vid behov också ingå tömning av hängrännor (som vid för hög höjd utförs av företag
         med särskild utrustning) samt åtgärder för att föra bort regnvatten från huset om så behövs.
-        Även avfrostning samt rengöring av frysskåp och frysfack kan ingå (och ibland kan det inte väljas bort).
+        Även avfrostning samt rengöring av kyl- och frysskåp kan ingå (och ibland kan det inte väljas bort).
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        I bruk sättning av stugan omfattar bl.a.
+        De här nämnda åtgärder gällande vintersäkring är rekommenderat av bland andra försäkringsbolagen.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <u>I bruk sättning</u> av stugan omfattar bl.a.
         <ul className={classes.bullets} >
-          <li>Öppning och påfyllning av vattensystemet, påslagning av el</li>
+          <li>Öppning och påfyllning av vattensystemet</li>
           <li>Spola vattenlås och golvbrunnar</li>
-          <li>Sätta på el och sätta i de kontakter som behövs (t.ex. kyl och frys)</li>
+          <li>Påslagning av el och isättning av de kontakter som behövs (t.ex. kyl och frys)</li>
           <li>Tömning och borttagning av fällor</li>
           <li>Vädring</li>
           <li>Framställning av sopkärl.</li>

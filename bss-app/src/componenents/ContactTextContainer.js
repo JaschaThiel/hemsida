@@ -141,7 +141,7 @@ function Types(props) {
         E-mail: gunnar@blekingestugservice.se<br></br><br></br>
         Social media: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Phone hours:</u><br></br>
-        Weekdays kl. 09:00 - 16:00<br></br>
+        Weekdays 9 am - 4 pm.<br></br>
         If the phone hours do not work for you, or you have trouble getting a hold of me during them,
         please send me a message and I will get back to you as soon as possible.
         <br></br><br></br>

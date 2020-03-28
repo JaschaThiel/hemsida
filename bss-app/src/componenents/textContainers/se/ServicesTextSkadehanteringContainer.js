@@ -29,7 +29,7 @@ function ServicesTextSkadehanteringContainer (props) {
         <u>Återställning av egendomen:</u> Alla nödvändiga åtgärder för att återställa egendomen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Beroende på typ av åtgärder utför jag antingen arbeten själv eller anlitar andra hantverkare/företag åt dig.
+        Beroende på typ av åtgärder gällande både säkring och återställning av egendomen utför jag antingen arbeten själv eller anlitar andra hantverkare/företag åt dig.
       </Typography>
     </div>
     

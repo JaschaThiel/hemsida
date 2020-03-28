@@ -33,7 +33,7 @@ function ServicesTextTillsynContainer (props) {
         kostnader utan om möjligt förskjuts bara takten av de vanliga tillsynsbesöken.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Tillsynsbesök utförs utomhus (kontroll av tomten och byggnader bl.a. gällande inbrott, skador
+        Tillsynsbesök utförs utomhus (kontroll av tomten och byggnader bl.a. gällande inbrott, inbrottsförsök, skador
         eller risk för skador genom särskilda händelser, skador genom djur) och inomhus (kontroll av
         intrång/skador genom djur, frostskador mm).
       </Typography>

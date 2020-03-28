@@ -358,8 +358,26 @@ class ServicesTextContainer extends React.Component {
     </div>
     :
     <div className={classes.root}>
-      <Typography variant="inherit" paragraph={true} >
-        English site coming soon, stay tuned!
+      <Typography variant="inherit" paragraph={true} align="left" >
+        The English site is currently under construction. If you have any questions regarding services,
+        feel free to contact me. 
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Gunnar Thiel</b>
+        <br></br>
+        Telephone: 012 345 67 89<br></br>
+        Mobile: 987 654 32 10<br></br><br></br>
+        E-mail: gunnar@blekingestugservice.se<br></br><br></br>
+        Social media: WhatsApp, Signal, Threema<br></br><br></br>
+        <u>Phone hours:</u><br></br>
+        Weekdays 9 am - 4 pm.<br></br>
+        If the phone hours do not work for you, or you have trouble getting a hold of me during them,
+        please send me a message and I will get back to you as soon as possible.
+        <br></br><br></br>
+        <u>Mailing address:</u><br></br>
+        Sävsjömålavägen 34<br></br>
+        37262 Bräkne-Hoby<br></br>
+        Sweden<br></br><br></br>
       </Typography>
     </div>
   );
