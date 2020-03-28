@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hemsida/static/css/main.aec0c013.chunk.css",
-    "main.js": "/hemsida/static/js/main.08f20179.chunk.js",
-    "main.js.map": "/hemsida/static/js/main.08f20179.chunk.js.map",
+    "main.js": "/hemsida/static/js/main.589d60d8.chunk.js",
+    "main.js.map": "/hemsida/static/js/main.589d60d8.chunk.js.map",
     "runtime~main.js": "/hemsida/static/js/runtime~main.a68333e8.js",
     "runtime~main.js.map": "/hemsida/static/js/runtime~main.a68333e8.js.map",
     "static/js/2.ce2a9ab5.chunk.js": "/hemsida/static/js/2.ce2a9ab5.chunk.js",
     "static/js/2.ce2a9ab5.chunk.js.map": "/hemsida/static/js/2.ce2a9ab5.chunk.js.map",
     "index.html": "/hemsida/index.html",
-    "precache-manifest.fc265c10e161cf63d6c5e4710afb37da.js": "/hemsida/precache-manifest.fc265c10e161cf63d6c5e4710afb37da.js",
+    "precache-manifest.d630e48b6a025c0ffde598144a0a56fe.js": "/hemsida/precache-manifest.d630e48b6a025c0ffde598144a0a56fe.js",
     "service-worker.js": "/hemsida/service-worker.js",
     "static/css/main.aec0c013.chunk.css.map": "/hemsida/static/css/main.aec0c013.chunk.css.map",
     "static/media/IMG_7588_cropped5.JPG": "/hemsida/static/media/IMG_7588_cropped5.7e0f20bc.JPG",
