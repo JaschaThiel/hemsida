@@ -14,7 +14,7 @@ const styles = {
   },
 };
 
-function ServicesTextSnoContainer (props) {
+function ServicesTextPrisContainer (props) {
   var { classes } = props;
 
   return (
@@ -43,8 +43,8 @@ function ServicesTextSnoContainer (props) {
   );
 }
 
-ServicesTextSnoContainer.propTypes = {
+ServicesTextPrisContainer.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ServicesTextSnoContainer);
+export default withStyles(styles)(ServicesTextPrisContainer);

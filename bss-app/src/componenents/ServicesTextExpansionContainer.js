@@ -16,15 +16,16 @@ import ServicesTextVinterContainer from './textContainers/se/ServicesTextVinterC
 import ServicesTextFastighetContainer from './textContainers/se/ServicesTextFastighetContainer';
 import ServicesTextPrisContainer from './textContainers/se/ServicesTextPrisContainer';
 
-//import  from './textContainers/de/';
-//import  from './textContainers/de/';
-//import  from './textContainers/de/';
-//import  './textContainers/de/';
-//import  from './textContainers/de/';
-//import  from './textContainers/de/';
-//import  from './textContainers/de/';
-//import  from './textContainers/de/';
-//import  from './textContainers/de/';
+import ServicesTextKontrollContainer from './textContainers/de/ServicesTextKontrollContainer';
+import ServicesTextSchadenContainer from './textContainers/de/ServicesTextSchadenContainer';
+import ServicesTextGartenContainer from './textContainers/de/ServicesTextGartenContainer';
+import ServicesTextRenovierungContainer from './textContainers/de/ServicesTextRenovierungContainer';
+import ServicesTextMaterialDEContainer from './textContainers/de/ServicesTextMaterialDEContainer';
+import ServicesTextSchneeContainer from './textContainers/de/ServicesTextSchneeContainer';
+import ServicesTextWinterContainer from './textContainers/de/ServicesTextWinterContainer';
+import ServicesTextGebaudeContainer from './textContainers/de/ServicesTextGebaudeContainer';
+import ServicesTextDEContainer from './textContainers/de/ServicesTextDEContainer';
+import ServicesTextPreiseContainer from './textContainers/de/ServicesTextPreiseContainer';
 
 
 const styles = {
@@ -208,13 +209,17 @@ class ServicesTextContainer extends React.Component {
     : language === 'de' ?
     <div className={classes.root}>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Kommt noch ...
+        Hier finden Sie die Dienstleistungen, die ich anbiete.
+        Klicken Sie auf den Pfeil rechts im jeweiligen Feld, um mehr zu lesen und genauso, um das Feld wieder zu minimieren.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Fehlt Ihnen etwas in den Angeboten? Haben Sie einen anderen Wunsch oder Bedarf? Fragen Sie mich. Wir finden eine Lösung.
       </Typography>
       <Typography variant="inherit" paragraph={true} >
-        <b>Kommt noch ...</b><br></br>
+        <b>Ich packe da an, wo es not tut und scheue mich nicht vor Drecksarbeit!</b><br></br>
       </Typography>
       <Typography variant="inherit" paragraph={true} align ="left" >
-        Kommt noch ...
+        Am Ende dieser Seite finden Sie Informationen zu Preisen.
       </Typography>
 
       <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }} >
@@ -223,9 +228,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel11a-content"
           id="penel11a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kontrollbesuche</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextKontrollContainer></ServicesTextKontrollContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -235,9 +241,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel12a-content"
           id="penel12a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Schadenshantierung</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails >
+          <ServicesTextSchadenContainer></ServicesTextSchadenContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -247,9 +254,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel13a-content"
           id="penel13a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Gartenarbeiten</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextGartenContainer></ServicesTextGartenContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -259,9 +267,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel14a-content"
           id="penel14a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renovierungs- und Bauprojekte</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextRenovierungContainer></ServicesTextRenovierungContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -272,9 +281,10 @@ class ServicesTextContainer extends React.Component {
           id="penel15a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
-            Kommt noch ...</Typography>
+            Bereitstellung und Entsorgung von Material</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextMaterialDEContainer></ServicesTextMaterialDEContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -284,9 +294,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel16a-content"
           id="penel16a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Schnee</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextSchneeContainer></ServicesTextSchneeContainer>
         </ExpansionPanelDetails>        
       </ExpansionPanel>
 
@@ -297,9 +308,10 @@ class ServicesTextContainer extends React.Component {
           id="penel17a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
-            Kommt noch ...</Typography>
+            Wintersicherung/Inbetriebnahme des Hauses</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextWinterContainer></ServicesTextWinterContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
@@ -310,9 +322,10 @@ class ServicesTextContainer extends React.Component {
           id="penel18a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
-            Kommt noch ...</Typography>
+            Gebäude- und Gästeservice</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextGebaudeContainer></ServicesTextGebaudeContainer>
         </ExpansionPanelDetails>        
       </ExpansionPanel>
 
@@ -322,9 +335,24 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel19a-content"
           id="penel19a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kommt noch ...</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Dienstleistungen für deutschsprachige Kunden
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <ServicesTextDEContainer></ServicesTextDEContainer>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
+      <ExpansionPanel className={classes.expPanOdd} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel191a-content"
+          id="penel191a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Preise</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <ServicesTextPreiseContainer></ServicesTextPreiseContainer>
         </ExpansionPanelDetails>        
       </ExpansionPanel>
     </div>

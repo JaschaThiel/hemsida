@@ -35,7 +35,7 @@ function ServicesTextMaterialContainer (props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Letar du efter någonting särskilt?</u><br></br>Ibland ska det vara något särskilt, t.ex. en speciell typ av gammal takpanna för att byta ut
         skadade utan att behöva byta ut hela taket. Eller gamla fönster till en trädgårdspaviljong. Eller
-        en viss typ av möbel. Eller ...
+        en viss typ av möbel. Eller ...<br></br>
         Jag bevakar regelbundet marknaden för begagnade saker i Blekinge, södra Kronobergs och
         södra Kalmar län samt i nordöstra Skåne. Och ibland lite större än så.
         Tala om för mig vad du letar efter så håller jag utkik åt dig. Att jag håller utkik får du gratis men
