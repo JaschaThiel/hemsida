@@ -14,6 +14,7 @@ import ServicesTextMaterialContainer from './textContainers/se/ServicesTextMater
 import ServicesTextSnoContainer from './textContainers/se/ServicesTextSnoContainer';
 import ServicesTextVinterContainer from './textContainers/se/ServicesTextVinterContainer';
 import ServicesTextFastighetContainer from './textContainers/se/ServicesTextFastighetContainer';
+import ServicesTextSEContainer from './textContainers/se/ServicesTextSEContainer';
 import ServicesTextPrisContainer from './textContainers/se/ServicesTextPrisContainer';
 
 import ServicesTextKontrollContainer from './textContainers/de/ServicesTextKontrollContainer';
@@ -36,7 +37,7 @@ const styles = {
     paddingRight: '5vw',
   },
   heading: {
-    flexBasis: '60%',
+    flexBasis: '55%',
     fontSize: 25,
     flexShrink: 0,
     fontWeight: 'bold', 
@@ -72,11 +73,11 @@ class ServicesTextContainer extends React.Component {
     language === 'se' ?
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        Nedan hittar du tjänsteutbudet. Klicka på pilen till höger i rutan för att läsa mer och likaså för att minimera rutan igen.
-        Behöver du något som inte finns med i tjänsteutbudet? Det är bara att höra av dig till mig så hittar vi en lösning.
+        Nedan hittar du tjänsteutbudet. Till höger av varje tjänst finns en kort sammanfattning.
+        Önskar du mer information kan du utvidga respektive ruta. 
       </Typography>
-      <Typography variant="inherit" paragraph={true} >
-        <b>Jag hugger i där det behövs och drar mig inte för skitjobb!</b><br></br>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Behöver du något som inte finns med i tjänsteutbudet? Det är bara att höra av dig till mig så hittar vi en lösning.
       </Typography>
       <Typography variant="inherit" paragraph={true} align ="left" >
         Information om prissättning hittar du längst ner.
@@ -89,7 +90,8 @@ class ServicesTextContainer extends React.Component {
           id="penel1a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Tillsyn</Typography>
-          <Typography align="left" variant="inherit" className={classes.secondaryHeading}></Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+            Tillsyn av fastigheten, regelbundet samt efter särskilda händelser</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextTillsynContainer></ServicesTextTillsynContainer>
@@ -103,7 +105,11 @@ class ServicesTextContainer extends React.Component {
           id="penel2a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Skadehantering</Typography>
-          <Typography align="left" variant="inherit" className={classes.secondaryHeading}></Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+          - Administrativ skadehantering<br></br>
+          - Säkring av egendomen, minskning av följdskador<br></br>
+          - Återställning av egendomen
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails >
           <ServicesTextSkadehanteringContainer></ServicesTextSkadehanteringContainer>
@@ -117,6 +123,9 @@ class ServicesTextContainer extends React.Component {
           id="penel3a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Trädgårdsarbeten</Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+            Utförandet av alla trädgårdsarbeten samt mindre anläggningsarbeten
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextTradgardsarbetenContainer></ServicesTextTradgardsarbetenContainer>
@@ -129,7 +138,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel4a-content"
           id="penel4a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renoverings- och byggarbeten</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renoverig och bygg</Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+            Utförandet av de flesta renoveringsarbeten samt mindre tillbyggnader och fristående byggnader
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextRenoveringContainer></ServicesTextRenoveringContainer>
@@ -144,6 +156,10 @@ class ServicesTextContainer extends React.Component {
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
             Framställning och bortforsling av material</Typography>
+            <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+              - Framställning av byggmaterial, jord, ved mm<br></br>
+              - Bortforsling av trädgårds- och byggavfall, skrot och sopor mm enligt regelverken
+            </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextMaterialContainer></ServicesTextMaterialContainer>
@@ -157,6 +173,7 @@ class ServicesTextContainer extends React.Component {
           id="penel6a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Snöskottning</Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}>Röjning av parkeringsplatser och vägar på din tomt</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextSnoContainer></ServicesTextSnoContainer>
@@ -171,6 +188,9 @@ class ServicesTextContainer extends React.Component {
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
             Vintersäkring/i bruk sättning av stugan</Typography>
+            <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+              Åtgärder för att förhindra skador under vintertiden samt för i bruk sättning till våren/innan ett besök.
+            </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextVinterContainer></ServicesTextVinterContainer>
@@ -185,9 +205,34 @@ class ServicesTextContainer extends React.Component {
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
             Fastighets- och gästservice</Typography>
+            <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+              - Nyckelförvaring<br></br>
+              - Turistinformation<br></br>
+              - Service kring din eller dina gästers vistelse i stugan<br></br>
+              - Kontaktperson
+            </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextFastighetContainer></ServicesTextFastighetContainer>
+        </ExpansionPanelDetails>        
+      </ExpansionPanel>
+
+      <ExpansionPanel className={classes.expPanEven} defaultExpanded={false} onChange={() => { this.props.onChange() }}>
+      <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel8a-content"
+          id="penel8a-header"
+        >
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
+            Tjänster för svenska kunder</Typography>
+            <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
+              - Tolkning<br></br>
+              - Översättning<br></br>
+              - Marknadsföring av din stuga
+            </Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <ServicesTextSEContainer></ServicesTextSEContainer>
         </ExpansionPanelDetails>        
       </ExpansionPanel>
 
@@ -198,6 +243,7 @@ class ServicesTextContainer extends React.Component {
           id="penel9a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Prissättning</Typography>
+          <Typography align="left" variant="inherit" className={classes.secondaryHeading}></Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextPrisContainer></ServicesTextPrisContainer>
@@ -209,14 +255,11 @@ class ServicesTextContainer extends React.Component {
     : language === 'de' ?
     <div className={classes.root}>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Hier finden Sie die Dienstleistungen, die ich anbiete.
-        Klicken Sie auf den Pfeil rechts im jeweiligen Feld, um mehr zu lesen und genauso, um das Feld wieder zu minimieren.
+        Nachfolgend die Dienstleistungen, die ich anbiete. Jeweils rechts finden Sie eine kurze Zusammenfassung.
+        Wünschen Sie ausführlichere Informationen, erweitern Sie bitte das entsprechende Feld. 
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Fehlt Ihnen etwas in den Angeboten? Haben Sie einen anderen Wunsch oder Bedarf? Fragen Sie mich. Wir finden eine Lösung.
-      </Typography>
-      <Typography variant="inherit" paragraph={true} >
-        <b>Ich packe da an, wo es not tut und scheue mich nicht vor Drecksarbeit!</b><br></br>
       </Typography>
       <Typography variant="inherit" paragraph={true} align ="left" >
         Am Ende dieser Seite finden Sie Informationen zu Preisen.
@@ -229,6 +272,9 @@ class ServicesTextContainer extends React.Component {
           id="penel11a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Kontrollbesuche</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            Kontrolle Ihres Grundstückes, Hauses und anderer Gebäude in regelmäßigen Abständen und nach besonderen Ereignissen
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextKontrollContainer></ServicesTextKontrollContainer>
@@ -241,7 +287,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel12a-content"
           id="penel12a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Schadenshantierung</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Schadensmanagement</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+           - Administrative Schadensregulierung<br></br>- Instandsetzung des Eigentums<br></br>- Instandsetzung des Eigentums
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails >
           <ServicesTextSchadenContainer></ServicesTextSchadenContainer>
@@ -254,7 +303,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel13a-content"
           id="penel13a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Gartenarbeiten</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Gartenpflege</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            Ausführung von Arbeiten zur Gartenpflege und Gartengestaltung
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextGartenContainer></ServicesTextGartenContainer>
@@ -267,7 +319,10 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel14a-content"
           id="penel14a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renovierungs- und Bauprojekte</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renovierung und Bau</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            Ausführung von Renovierungsarbeiten aller Art, sowie kleinerer Bauprojekte
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextRenovierungContainer></ServicesTextRenovierungContainer>
@@ -281,7 +336,11 @@ class ServicesTextContainer extends React.Component {
           id="penel15a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
-            Bereitstellung und Entsorgung von Material</Typography>
+            Beschaffung und Entsorgung von Material</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            Beschaffung von Baumaterial, Erde, Brennholz u.a.<br></br>
+            Vorschriftsmäßige Entsorgung von Garten- und Bauabfällen, Schrott, Müll u.s.w.
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextMaterialDEContainer></ServicesTextMaterialDEContainer>
@@ -295,6 +354,9 @@ class ServicesTextContainer extends React.Component {
           id="penel16a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Schnee</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            Räumen von Parkplätzen und Wegen auf Ihrem Grundstück
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextSchneeContainer></ServicesTextSchneeContainer>
@@ -309,6 +371,9 @@ class ServicesTextContainer extends React.Component {
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
             Wintersicherung/Inbetriebnahme des Hauses</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            Maßnahmen zur Vermeidung von Schäden im Winter und zur Inbetriebnahme im Frühjahr oder vor einem Besuch
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextWinterContainer></ServicesTextWinterContainer>
@@ -323,6 +388,10 @@ class ServicesTextContainer extends React.Component {
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
             Gebäude- und Gästeservice</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            - Schlüsselverwahrung<br></br>- Touristeninformation<br></br>- Service für Ihren Aufenthalt und den Ihrer Gäste<br></br>
+            - Kontaktperson
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextGebaudeContainer></ServicesTextGebaudeContainer>
@@ -338,6 +407,12 @@ class ServicesTextContainer extends React.Component {
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>
             Dienstleistungen für deutschsprachige Kunden
           </Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+            - Hilfe mit Post in schwedischer Sprache<br></br>
+            - Hilfe mit Behörden, Kommunen u. a.<br></br>
+            - Übersetzungen und Dolmetscherdienste<br></br>
+            - Vertretungen in besonderen Situationen
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextDEContainer></ServicesTextDEContainer>
@@ -350,6 +425,8 @@ class ServicesTextContainer extends React.Component {
           id="penel191a-header"
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Preise</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ServicesTextPreiseContainer></ServicesTextPreiseContainer>

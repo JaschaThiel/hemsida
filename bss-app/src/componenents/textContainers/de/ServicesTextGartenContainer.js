@@ -16,17 +16,14 @@ function ServicesTextGartenContainer (props) {
   return (
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        Rasen mähen und Kanten schneiden, Beschneidung von Büschen und Bäumen, Fällen kleinerer Bäume,
-        Pflanzungen, Bewässerung, Freischneiden zugewachsener Flächen, Sägen und Hacken von Brennholz und vieles mehr.
-        Ich führe die allermeisten Gartenarbeiten aus.
+        Rasen mähen und Kanten schneiden, Beschneiden von Büschen und Bäumen,
+        Fällen kleinerer Bäume, Pflanzungen, Bewässerung, Freischneiden zugewachsener Flächen,
+        Sägen und Hacken von Brennholz und vieles mehr.  Ich führe die allermeisten Arbeiten zur Gartenpflege aus.
+        In gewissem Umfang kann ich auch behilflich sein z.B. bei der Anlage von Wegen und anderer Gartengestaltung.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Es ist empfehlenswert, den Rasen regelmäßig zu mähen. Das ist weniger Arbeit als ab und zu eine Wiese sensen zu müssen,
-        Der Rasen bekommt eine bessere Qualität und das Grundstück erweckt den
-        Eindruck bewohnt zu sein, was das Risiko für Einbrüche verringert.
-      </Typography>
-      <Typography variant="inherit" paragraph={true} align="left" >
-        In gewissem Umfang kann ich auch behilflich sein mit z. B. der Anlage von Wegen und anderer Gartengestaltung.
+        Regelmäßiges Mähen des Rasens beansprucht weniger Zeit, gibt dem Rasen eine bessere Qualität und das Grundstück erweckt den Eindruck,
+        bewohnt zu sein, was das Risiko für Einbrüche verringert.
       </Typography>
     </div>
     

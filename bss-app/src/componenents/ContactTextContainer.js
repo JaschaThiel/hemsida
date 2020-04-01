@@ -35,16 +35,17 @@ function Types(props) {
         ännu bättre, skicka ett sms, mejl eller använda nedan nämnda sociala medier. Jag hör sedan av mig så fort jag kan.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <b>Gunnar Thiel</b>
         <br></br>
-        Telefon hem: 012 345 67 89<br></br>
-        Telefon mobil: 987 654 32 10<br></br><br></br>
+        <b>Gunnar Thiel</b>
+        <br></br><br></br>
+        Telefon: 012 345 67 89<br></br><br></br>
         E-mail: gunnar@blekingestugservice.se<br></br><br></br>
         Sociala medier: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefontider:</u><br></br>
         Vardagar kl. 09:00 - 16:00<br></br>
-        Passar inte tiderna dig? Skicka ett meddelande med ett tidsförslag, så ringer jag upp dig.<br></br><br></br>
+        Passar inte tiderna dig? Skicka ett meddelande med ett tidsförslag, så ringer jag gärna upp dig.<br></br><br></br>
         <u>Postadress:</u><br></br>
+        Blekinge Stugservice <br></br>
         Sävsjömålavägen 34<br></br>
         37262 Bräkne-Hoby<br></br><br></br>
 
@@ -58,19 +59,28 @@ function Types(props) {
       
       <Typography variant="inherit" paragraph={true} align="left" >
         Född 1966 i Lübeck, uppvuxen i Hamburg och San Diego. Gift, två vuxna och utflugna barn.
-        Jag har en utbildning i socialt arbete och jobbat en del i yrket.<br></br><br></br>
-        Men jag har också i flera år jobbat som möbelsnickare samt i många år som fastighetsskötare,
-        lagerarbetare och budbilsförare för en skeppsutrustare i Hamburgs hamn. Jag har tom jobbat som kundtjänstmedarbetare i ett dataföretag,
-        fast jag kan ingenting om datorer. :-)
+        Jag har en utbildning i socialt arbete och jobbat en del i yrket.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Men jag har också i flera år jobbat som snickare samt i många år som fastighetsskötare,
+        lagerarbetare och budbilsförare för en skeppsutrustare i Hamburgs hamn.
+        En viss tid har jag också jobbat som kundtjänstmedarbetare i ett dataföretag.
       </Typography>
       <img className={classes.img1} src={ image1} alt="im1" />
       <Typography variant="inherit" gutterBottom={true} align="left" >
         Genom många trädgårds-, renoverings- och byggprojekt på mina och andras fastigheter,
         och genom att ha jobbat mycket med kompisar med olika hantverksyrken har jag skaffat mig omfattande kunskaper som jag nu kan erbjuda dig.
+        Jag hugger i där det behövs och drar mig inte för obekväma jobb!
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Mina intresseområden är ganska breda. Hantverk av alla slag och trädgård, odling, matlagning, natur och hållbarhet,
         både utifrån ett miljö- och ett samhällsperspektiv (om man nu kan skilja på dem). Jag gillar att lösa problem och jag tycker om ny kunskap.
+      </Typography>
+      <Typography variant="inherit" gutterBottom={true} align="left" >
+        <br></br>
+        © blekingestugservice.se 2020 <br></br>
+        Foton:    Anna-Lena Thiel <br></br>
+        Design:    Jascha Thiel
       </Typography>
     </div>
     : language === 'de' ?
@@ -86,16 +96,17 @@ function Types(props) {
         Ich melde mich dann so schnell wie möglich bei Ihnen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <b>Gunnar Thiel</b>
         <br></br>
-        Festnetz: 012 345 67 89<br></br>
-        Handy: 987 654 32 10<br></br><br></br>
+        <b>Gunnar Thiel</b>
+        <br></br><br></br>
+        Telefon: 012 345 67 89<br></br><br></br>
         E-mail: gunnar@blekingestugservice.se<br></br><br></br>
         Soziale Medien: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefonzeiten:</u><br></br>
         Werktags 9:00 - 16:00 Uhr<br></br>
-        Passen Ihnen die Zeiten nicht? Schicken Sie mir eine Nachricht mit einem Zeitvorschlag, ich rufe Sie dann an.<br></br><br></br>
+        Passen Ihnen die Zeiten nicht? Schicken Sie mir eine Nachricht mit einem Zeitvorschlag, ich rufe Sie dann gerne zurück.<br></br><br></br>
         <u>Anschrift:</u><br></br>
+        Blekinge Stugservice<br></br>
         Sävsjömålavägen 34<br></br>
         37262 Bräkne-Hoby<br></br>
         Schweden<br></br><br></br>
@@ -111,20 +122,27 @@ function Types(props) {
         Ich habe eine Ausbildung im Bereich der Sozialen Arbeit und habe einige Jahre in diesem Beruf gearbeitet.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Ich habe aber auch mehrere Jahre als Möbeltischler gearbeitet sowie viele Jahre als Hausmeister,
-        Lagerarbeiter und Fahrer für einen Schiffsausrüster im Hamburger Hafen. Ich habe sogar eine zeitlang als
-        Kundendienstmitarbeiter für eine Computerfirma gearbeitet, obwohl ich keine Ahnung habe von Computern. :-)
+        Ich habe aber auch mehrere Jahre als Tischler gearbeitet sowie viele Jahre als Hausmeister,
+        Lagerarbeiter und Fahrer für einen Schiffsausrüster im Hamburger Hafen.
+        Eine Zeit lang habe ich auch als Kundendienstmitarbeiter für eine Computerfirma gearbeitet.
       </Typography>
       <img className={classes.img1} src={ image1} alt="im1" />
       <Typography variant="inherit" paragraph={true} align="left" >
         Durch viele Garten-, Renovierungs- und Bauprojekte auf und an meinen eigenen und anderen Grundstücken und
         Häusern sowie durch viel Zusammenarbeit mit Freunden mit unterschiedlichen Handwerksausbildungen habe ich mir das
         umfangreiche Wissen verschafft, dass ich Ihnen heute anbieten kann.
+        Ich packe da an, wo es nottut und scheue mich nicht vor unbequemen Arbeiten.
       </Typography>
       <Typography variant="inherit" gutterBottom={true} align="left" >
         Meine Interessen sind recht vielfältig. Handwerk jeglicher Art, Garten, Gemüseanbau, Kochen, Natur und Nachhaltigkeit,
         sowohl aus einer Umwelt-, wie auch aus einer Gesellschaftsperspektive (wenn man das denn trennen kann).
         Ich habe Spaß daran, Probleme zu lösen und mir neues Wissen anzueignen.
+      </Typography>
+      <Typography variant="inherit" gutterBottom={true} align="left" >
+        <br></br>
+        © blekingestugservice.se 2020 <br></br>
+        Fotos:    Anna-Lena Thiel <br></br>
+        Design:    Jascha Thiel
       </Typography>
     </div>
     :
@@ -149,6 +167,12 @@ function Types(props) {
         Sävsjömålavägen 34<br></br>
         37262 Bräkne-Hoby<br></br>
         Sweden<br></br><br></br>
+      </Typography>
+      <Typography variant="inherit" gutterBottom={true} align="left" >
+        <br></br>
+        © blekingestugservice.se 2020 <br></br>
+        Photos:    Anna-Lena Thiel <br></br>
+        Design:    Jascha Thiel
       </Typography>
     </div>
   );

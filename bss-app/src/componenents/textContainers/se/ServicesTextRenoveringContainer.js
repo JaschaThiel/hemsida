@@ -27,14 +27,15 @@ function ServicesTextRenoveringContainer (props) {
         <ul className={classes.bullets} >
           <li>Jag kan hjälpa dig och renovera/bygga med dig tillsammans. Det är oftast enklare och också roligare med fler händer.</li>
           <li>Jag kan också renovera/bygga åt dig när du inte är på plats. Då har du din semester i stugan som riktig semester.
-            När renovering eller bygget gäller badrum och kök kan det vara lämpligt att huset inte är bebott under den tiden.</li>
+              När renovering eller bygget gäller badrum och kök kan det vara lämpligt att huset inte är bebott under den tiden.</li>
           <li>Vill du göra jobbet själv men behöver rådgivning kring hur kan jag erbjuda dig detta.
-            Det mesta vet jag och det jag inte vet vet jag att ta fram.</li>
+              Det mesta vet jag och det jag inte vet vet jag att ta fram.</li>
         </ul>
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        För vissa arbeten, särskild inom vvs och el, behövs behörig hantverkare. Jag kan förmedla
-        sådana likaså som andra hantverkare om så behövs eller önskas. Är du inte på plats kan jag se till så att allt blir rätt.
+        För vissa arbeten, särskild inom vvs och el, behövs behörig hantverkare.
+        Jag kan förmedla sådana likaså som andra hantverkare om så behövs eller önskas.
+        Är du inte på plats kan jag se till så att allt blir rätt.
         Och jag kan vara till hjälp med formalia kring ditt bygge/renovering, t.ex. gällande bygglov och andra tillstånd.
       </Typography>
     </div>

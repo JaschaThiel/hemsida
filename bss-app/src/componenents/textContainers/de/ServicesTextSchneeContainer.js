@@ -16,10 +16,12 @@ function ServicesTextSchneeContainer (props) {
   return (
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        Ich biete Ihnen an, auf Ihrem Grundstück Schnee zu schieben. Dieses gilt jedoch nicht für Wege zu oder ausserhalb Ihres Grundstückes.
-        Fällt bzw. liegt wenig Schnee ist es angemessen, regelmäßig zu schieben, damit ein bewohnter Eindruck erweckt wird.
-        Ist viel Schnee gefallen sollte der liegen bleiben, weil das Einbrüche erschwert.
-        In dem Fall wird der Schnee beseitigt kurz bevor Sie oder Ihre Gäste das Haus besuchen möchten.
+        Ich biete Ihnen an, auf Ihrem Grundstück Schnee zu räumen. Dieses gilt jedoch nicht für Zufahrten oder Wege außerhalb Ihres Grundstückes. 
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Fällt bzw. liegt wenig Schnee, ist es angemessen, regelmäßig zu schieben, damit ein bewohnter Eindruck erweckt wird.
+        Ist viel Schnee gefallen, sollte der liegen bleiben, weil das Einbrüche erschwert. In dem Fall wird der Schnee beseitigt,
+        kurz bevor Sie oder Ihre Gäste das Haus besuchen möchten.
       </Typography>
     </div>
   );

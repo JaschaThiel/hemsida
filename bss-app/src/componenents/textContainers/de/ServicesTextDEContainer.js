@@ -27,7 +27,7 @@ function ServicesTextDEContainer (props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Hilfe mit Behörden und Ähnlichem</u><br></br>
         Manchmal ist es einfach gut, wenn jemand dabei ist, der der Landessprache mächtig ist.
-        Besonders, wenn vielleicht das eigene Englisch oder auch das des Gegenüber nicht ganz so sitzt.
+        Besonders, wenn vielleicht auch das eigene Englisch oder auch das des Gegenübers nicht ganz so sitzt.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Übersetzungen und Dolmetschen</u><br></br>
@@ -35,13 +35,13 @@ function ServicesTextDEContainer (props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Vertretungen</u><br></br>
-        Es kommt vor, dass ein Grundbesitz betroffen ist von kommunalen oder staatlichen projekten, z. B. der Schaffung oder Ausweitung
-        von Naturreservaten oder Strassenbauprojekte. In diesen Fällen erbeten sich die schwedischen Behörden in der Regel einen Vertreter,
-        der vor Ort ist und schwedisch spricht. Ich kann Ihnen anbieten, diese Vertretung für Sie zu übernehmen und ich habe
-        Erfahrung mit mit derartigen Situationen und Prozessen. 
+        Es kommt vor, dass ein Grundbesitz betroffen ist von kommunalen oder staatlichen Projekten,
+        z. B. der Schaffung oder Ausweitung von Naturreservaten oder Straßenbauprojekten.
+        In diesen Fällen erbitten sich die schwedischen Behörden in der Regel einen Vertreter,
+        der vor Ort ist und Schwedisch spricht.
+        Ich kann Ihnen anbieten, diese Vertretung für Sie zu übernehmen und habe Erfahrung mit derartigen Situationen und Prozessen. 
       </Typography>
     </div>
-    
   );
 }
 

@@ -16,20 +16,19 @@ function ServicesTextSchadenContainer (props) {
   return (
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        <u>Administrative Hantierung von Schäden:</u> Z. B. Anzeige bei der Polizei erstatten, Kontakt mit der Versicherung.
+        <u>Administrative Regulierung von Schäden:</u> Z. B. Kontakt mit Behörden und der Versicherung aufnehmen, Anzeige bei der Polizei erstatten.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left">
-        <u>Sicherung des Eigentums:</u> Schnelle, zeitweilige Lösungen, um Folgeschäden zu verhindern oder zumindest zu reduzieren.
-        Z.B. ein Loch im Dach mit einer Plane abdecken, ein aufgebrochenes Fenster
-        oder eine Tür zu verschließen oder loses Eigentum aus dem Haus zu entfernen und einzulagern (Einlagerung durch Anmieten von Lagerfläche).
+        <u>Sicherung des Eigentums:</u>  Schnelle, zeitweilige Lösungen, um Folgeschäden zu verhindern oder zumindest zu reduzieren.
+        Z.B. ein Loch im Dach mit einer Plane abdecken, ein aufgebrochenes Fenster oder eine Tür verschließen oder
+        loses Eigentum aus dem Haus  entfernen und einlagern.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <u>Wiederherrichtung des Eigentums:</u> Alle notwendigen Maßnahmen, um Ihr Eigentum wieder herzurichten.
+        <u>Instandsetzung des Eigentums:</u>  Alle notwendigen Maßnahmen, um Ihr Eigentum wieder herzurichten.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Abhängig von der Art der erforderlichen Massnahmen,
-        sowohl die Sicherung wie auch die Wiederherrichtung Ihres Eigentums betreffend,
-        führe ich die Arbeiten entweder selber aus oder beauftrage andere Handwerker/Firmen. 
+        Abhängig von der Art der erforderlichen Maßnahmen, sowohl die Sicherung wie auch die Wiederherrichtung Ihres Eigentums betreffend,
+        führe ich die Arbeiten entweder selbst aus oder beauftrage zuverlässige andere Handwerker/Firmen.  
       </Typography>
     </div>
     

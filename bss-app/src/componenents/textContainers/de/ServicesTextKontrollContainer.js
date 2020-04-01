@@ -22,24 +22,19 @@ function ServicesTextKontrollContainer (props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         Regelmäßige Kontrollen Ihres Eigentums führen zu mehr Bewegung auf Ihrem Grundstück,
         was das Risiko für Einbrüche reduzieren kann. Das kann auch dazu beitragen, Schäden zu vermeiden,
-        indem Risiken entdeckt werden, bevor der Schaden eingetroffen ist.
-        Und wenn ein Schaden eingetreten ist führt ein zeitiges Entdecken zu einer erheblichen
-        Minderung von Folgeschäden (welches der Grund ist, dass regelmäßige Kontrollbesuche weit oben auf der
-        Wunschliste von Versicherungsunternehmen stehen).
+        indem Risiken entdeckt werden, bevor der Schaden eingetroffen ist. Wenn ein Schaden eingetreten ist,
+        führt ein zeitiges Entdecken zu einer erheblichen Minderung von Folgeschäden.
         Und schließlich: Sie oder Ihre Gäste erleben bei Ankunft am Ferienhaus keine unwillkommenen Überraschungen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Kontrollbesuche werden regelmäßig in dem von Ihnen gewünschten Takt durchgeführt,
-        aber unregelmäßig in dem Sinne, dass kein ablesbares Muster entsteht (z. B. einen Tag jede zweite Woche,
-        aber nicht jeden zweiten Donnerstag). Kontrollbesuche werden ebenfalls nach besonderen Ereignissen
-        (Sturm, Überschwemmungen, grosse Schneemengen, Waldbrand u.s.w.) durchgeführt.
-        Diese zusätzlichen Besuche führen nicht notwendiger Weise zu zusätzlichen Kosten. Wenn möglich wird einfach der reguläre Takt verschoben.
-      </Typography>
-      <Typography variant="inherit" paragraph={true} align="left" >
-        Die Durchführung von Kontrollbesuchen geschieht ausser Haus
-        (Kontrolle des Grundstückes und der Gebäude u.a. betreffend Einbruch oder Einbruchsversuch,
-        Schäden oder Risiko für Schäden durch besondere Ereignisse, Schäden durch Tiere) und in den Gebäuden
-        (z. B. ob Tiere eingedrungen und/oder Schäden verursacht haben oder Frostschäden aufgetreten sind).
+        Die Durchführung von Kontrollbesuchen geschieht 
+        <ul>
+          <li>regelmäßig in dem von Ihnen gewünschten Takt,
+              sowie nach besonderen Ereignissen (Stürme, Überschwemmungen, große Schneemengen, Waldbrände u.s.w.)</li>
+          <li>auf dem Grundstück (Kontrolle des Grundstückes und der Gebäude von außen u.a. betreffend Einbruch oder Einbruchsversuch,
+            Schäden oder Risiko für Schäden durch besondere Ereignisse, Schäden durch Tiere)</li>
+          <li>und in den Gebäuden (z. B. Schäden durch Tiere, Frostschäden).</li>
+        </ul>
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Darüber hinaus können Kontrollbesuche unter anderem folgende Leistungen umfassen:
