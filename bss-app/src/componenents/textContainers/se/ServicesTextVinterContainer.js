@@ -36,7 +36,7 @@ function ServicesTextVinterContainer (props) {
         </ul>
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        De här nämnda åtgärder gällande vintersäkring är rekommenderade av bland andra försäkringsbolagen.
+        De här nämnda åtgärderna gällande vintersäkring är rekommenderade av bland andra försäkringsbolagen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>I bruk sättning</u> av stugan kan bl. a. omfatta
