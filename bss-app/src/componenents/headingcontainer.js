@@ -34,7 +34,7 @@ function Types(props) {
     <div className={classes.root}>
       <ReactFitText compressor={1.19}>
         <Typography color="secondary" component="h2" variant="h1" gutterBottom={false} >
-          Willkommen zum
+          Willkommen beim
         </Typography>
         </ReactFitText>
         <ReactFitText compressor={1.19} >

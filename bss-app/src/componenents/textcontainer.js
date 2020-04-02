@@ -93,34 +93,35 @@ function Types(props) {
     : language === 'de' ?
     <div className={classes.root}>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} >
-        Dein Ferienhaus, Deine Erholung - meine Arbeit      </Typography>
-      <Typography variant="inherit" paragraph={true} align="left" >
-        Blekinge Ferienhausservice bietet eine breite Palette an Dienstleistungen für Sie und Ihr Ferienhaus.
-        Durch diese Dienstleistungen, die nach Ihren Wünschen und Bedürfnissen ausgestaltet und kombiniert werden, haben Sie viele Vorteile:
+      Dienstleistungen für Sie und Ihr Ferienhaus in Blekinge und dem südöstlichen Småland
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <b>Information</b><br></br>
-        Sie erhalten regelmässig Information über Ihr Ferienhaus und über eventuelle Geschehnisse.
-        Damit erfüllen Sie auch den Wunsch der Versicherungsgesellschaften nach regelmässigen Kontrollbesuchen.
+        Blekinge Ferienhausservice bietet eine breite Palette an Dienstleistungen - ganz nach Ihren Wünschen und Bedürfnissen. Sie haben viele Vorteile:
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Hilfe und Unterstützung</b><br></br>
-        Sie bekommen Hilfe und Unterstützung für viele Fragen und Projekte. Dabei kann es sich unter anderem um Folgendes handeln:
+        Sie bekommen Hilfe und Unterstützung für viele Fragen und Projekte. Dabei kann es sich u. a. um folgende Bereiche handeln:
         <ul className={classes.bullets}>
-          <li>Gartenarbeit/-projekte</li>
-          <li>Schadenshantierung/-regulierung</li>
+          <li>Gartenpflege und -gestaltung</li>
+          <li>Kontrollbesuche</li>
+          <li>Schadensmanagement</li>
           <li>Renovierungs- und Bauprojekte</li>
-          <li>Vermietung</li>
+          <li>Vermietung, Gästemanagement</li>
           <li>Betrieb und Unterhalt</li>
           <li>Administrative Fragen</li>
         </ul>
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Information</b><br></br>
+        Sie erhalten regelmäßig Informationen über Ihr Ferienhaus, über eventuelle Geschehnisse und Handlungsbedarf.
+        Damit erfüllen Sie auch den Wunsch der Versicherungsgesellschaften nach regelmäßigen Kontrollbesuchen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Sicherheit</b><br></br>
         Mehr Bewegung auf Ihrem Grundstück zu Zeiten, da Ihr Ferienhaus leer steht,
         sowie ein gepflegter Eindruck minimieren das Risiko für Einbruch und Sachbeschädigung.
         Sie wissen, was auf Ihrem Grundstück passiert und Schäden können vermieden oder zumindest verringert werden.
-        Darüber hinaus erhalten Sie aber z. B. auch Sicherheit darüber, dass bei Ihrer Ankunft oder der Ankunft Ihrer Gäste alles so ist, wie es sein soll.
+        Darüber hinaus erhalten Sie aber z.B. auch Sicherheit darüber, dass bei Ihrer Ankunft oder der Ankunft Ihrer Gäste alles so ist, wie es sein soll.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Sie brauchen sich nicht mehr zu beunruhigen</b><br></br>
@@ -130,37 +131,39 @@ function Types(props) {
         Mit den Dienstleistungen von Blekinge Ferienhausservice können Sie sich viele Sorgen ersparen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <b>Erholung vom ersten Tag!</b><br></br>
-        Vielleicht das Wichtigste von allem: Sie können zu Ihrem Ferienhaus kommen und Ihren Urlaub voll und ganz geniessen,
+        <b>Erholung vom ersten Tag an!</b><br></br>
+        Vielleicht das Wichtigste von allem: Sie können zu Ihrem Ferienhaus kommen und Ihren Urlaub voll und ganz genießen,
         Sie können sich von der ersten bis zur letzten Minute erholen.
         <br></br><br></br>
       </Typography>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
-        Ich weiss, wovon ich rede
+        Ich weiß, wovon ich rede
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Das Haus, in dem wir hier in Blekinge seit 2004 fest wohnen, hatten wir bereits 1997 als Ferienhaus gekauft.
-        Wir haben hier viele fantastische Urlaubstage erlebt, waren aber auch betroffen von Einbruch, Sturmschäden,
-        Schäden durch Tiere (hauptsächlich Mäuse und Ameisen) und Frostschäden (falls ich nichts vergessen habe).
+        Das Haus, in dem wir hier in Blekinge seit 2004 dauerhaft wohnen, hatten wir bereits 1997 als Ferienhaus gekauft.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Ich erinnere gut die Unruhe während der meisten Wochen des Jahres, da das Haus leer stand,
-        sowie die grosse Unsicherheit, die der Einbruch mit sich brachte.
-        Genauso kenne ich die große Ratlosigkeit nach z. B. Sturmschäden.
-        Für uns unter anderem die Frage, wie man mit einer mehr als 25 Meter grossen Tanne umgeht, die sich auf die Scheune gelegt hatte.
-        Und natürlich erinnere ich mich an die Sorge bei jeder Anreise, ob denn wohl alles gut gehen würde oder welche Schäden und Probleme einen erwarten.
+        Wir haben hier viele fantastische Urlaubstage erlebt,
+        waren aber auch betroffen von Einbruch, Sturmschäden, Schäden durch Tiere und Frostschäden.
+        Ich erinnere die Sorgen, Unsicherheiten und Ratlosigkeiten,
+        die solche Ereignisse und ein oft lange leer stehendes Haus mit sich bringen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Bevor der Urlaub in unserem Ferienhaus beginnen konnte, gab es immer viel zu tun.
-        Abhängig von Jahreszeit und Wetter konnte es bis zu drei Tagen dauern, bis alles erledigt war.
-        Und nicht immer war es lustig: Nach einem Tag Reise abends am Ferienhaus ankommen,
-        bei dem drinnen genauso viele Minusgrade herrschten wie draussen ist herausfordernd - insbesondere mit kleinen Kindern.
+        Ich erinnere auch gut, wieviel Arbeit es war, das Haus bei Ankunft in Betrieb zu nehmen (insbesondere im Winter),
+        den Garten herzurichten, Unterhaltsarbeiten durchzuführen und es für die Zeiten des Leerstands zurecht zu machen.
+        All diese Tätigkeiten haben mir durchaus Spaß gemacht, aber es ist auch nicht von der Hand zu weisen,
+        dass damit Zeit für Urlaub, Familie und Erholung verloren ging.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Nach wie vor bin ich den Menschen dankbar, die uns in all den Jahren mit vielen kleinen und großen Dingen beigestanden haben.
+        Ohne diese Menschen hätten wir besonders in den ersten Jahren vor einer ganzen Reihe uns unlösbar erscheinender Probleme gestanden.
+        Angefangen damit, dass wir das Haus gar nicht hätten kaufen können, denn es gab kein fließendes Wasser und wir hätten nicht gewusst,
+        wie wir das Bohren des Brunnens oder den Bau der Frisch- und Abwasseranlage hätten durchführen sollen,
+        von den erforderlichen Genehmigungen mal ganz abgesehen.
       </Typography>
       <Typography variant="inherit" gutterBottom={true} align="left" >
-        Alle Arbeit, um das Ferienhaus herzurichten - sowohl um sich dort aufhalten zu könne,
-        wie auch um es für viele Wochen leer stehen zu lassen - aber auch alle Arbeit für Unterhalt und Renovierung
-        verkürzt nicht nur die Zeit für Urlaub und Erholung. Sie verringert auch die Zeit für Gemütlichkeit,
-        Spiel und Erlebnisse mit den Nächsten und Liebsten.
+        All diese Erlebnisse, gelösten Probleme, gefundenen Ideen und Kontakte bilden einen guten Teil meines Erfahrungsschatzes,
+        aus dem ich für meine Dienstleistungen für Sie schöpfe.
       </Typography>
     </div>
     :
