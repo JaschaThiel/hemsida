@@ -24,70 +24,69 @@ function Types(props) {
     language === 'se' ? 
     <div className={classes.root}>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} >
-          Tillsyn med omsorg
+        Tjänster för dig och din stuga i Blekinge och sydöstra Småland
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Blekinge stugservice erbjuder ett brett urval av tjänster kring din stuga. Genom dessa tjänster,
-        som kombineras och utformas helt efter dina önskemål och behoven, får du många fördelar:
-      </Typography>
-      <Typography variant="inherit" paragraph={true} align="left" >
-        <b>Information</b><br></br>
-        Du får regelbunden information om din egendom och eventuella händelser. Samtidigt uppfyller du försäkringsbolagens önskemål om regelbunden tillsyn.
+        Blekinge stugservice erbjuder ett brett urval av tjänster - helt efter dina önskemål och behov. Du får många fördelar:
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Hjälp och stöd</b><br></br>
-        Du får hjälp och stöd med många frågor och projekt. Det kan bland annat gälla:
+        Du får hjälp och stöd med många frågor och projekt. Det kan bland annat gälla följande områden:
         <ul className={classes.bullets}>
           <li>Trädgård</li>
+          <li>Tillsyn</li>
           <li>Skadehantering</li>
           <li>Renovering och bygg</li>
-          <li>Uthyrning</li>
+          <li>Uthyrning, gästservice</li>
           <li>Drift och underhåll</li>
           <li>Administrativa frågor</li>
         </ul>
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-      <b>Trygghet</b><br></br>
-      Rörelse på din fastighet i tider då stugan står tom och ett vårdat intryck av tomten minskar risken för inbrott och skadegörelse.
-      Du vet, vad som händer på din tomt och skador kan undvikas eller minimeras.
-      Men du får också trygghet i t.ex. att allt är som det ska när du eller dina gäster anländer till stugan. 
+        <b>Information</b><br></br>
+        Du får regelbunden information om din egendom, eventuella händelser och behov av åtgärder.
+        Samtidigt uppfyller du försäkringsbolagens önskemål om regelbunden tillsyn.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-      <b>Du slipper oroa dig</b><br></br>
-      Det finns mycket att oroa sig för. Det kan vara stora grejer som att oroa sig för t.ex.
-      inbrott eller stormskador eller mindre grejer som skador genom djur, men också kring hur en renovering ska utföras
-      eller vilka formaliteter man behöver ta hänsyn till. Genom tjänsterna som Blekinge stugservice erbjuder slipper du mycket av oron.
+        <b>Trygghet</b><br></br>
+        Rörelse på din fastighet i tider då stugan står tom och ett vårdat intryck av tomten minskar risken för inbrott och skadegörelse.
+        Du vet, vad som händer på din tomt och skador kan undvikas eller minimeras.
+        Men du får också trygghet i t.ex. att allt är som det ska när du eller dina gäster anländer till stugan. 
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-      <b>Återhämtning från dag ett!</b><br></br>
-      Men kanske viktigast av allt är att du kan komma till din stuga, njuta av din semester och återhämta dig från första till sista minut.
+        <b>Återhämtning från dag ett!</b><br></br>
+        Det finns mycket att oroa sig för. Det kan vara stora grejer som att oroa sig för t.ex.
+        inbrott eller stormskador eller mindre grejer som skador genom djur, men också kring hur en renovering ska utföras
+        eller vilka formaliteter man behöver ta hänsyn till. Genom tjänsterna som Blekinge stugservice erbjuder slipper du mycket av oron.
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        <b>Återhämtning från dag ett!</b><br></br>
+        Men kanske viktigast av allt är att du kan komma till din stuga, njuta av din semester och återhämta dig från första till sista minut.
       <br></br><br></br>
       </Typography>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} align="left" >
-      Jag vet vad jag pratar om
+        Jag vet vad jag pratar om
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Torpet vi här i Blekinge bor i permanent sedan 2004 köpte vi redan 1997 som sommarstuga.
-        Vi har haft många fina semesterdagar i stugan, men vi har också drabbats av inbrott, stormskador,
-        intrång av djur (mest möss och myror) samt frostskador (om jag nu kommer ihåg allt).
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Jag känner väl till oron om egendomen när den står tom de flesta veckorna under året och den stora osäkerheten som inbrott medför.
-        Likaså känner jag till de stora frågetecken som man kan står inför t.ex. genom en stormskada.
-        För oss bland annat frågan om hur man hanterar en mer än 25 meter lång gran som har lagt sig över ladan.
-        Och självklart kommer jag ihåg den oroliga förväntan under varje resa till stugan: kommer allt vara som det ska eller vilka
-        skador och problem kommer vi står inför när vi är framme?
+        Vi har haft många fina semesterdagar i stugan, men vi har också drabbats av inbrott, stormskador, intrång av djur samt frostskador.
+        Jag känner till oron, osäkerheten och rådlösheten som sådana händelser och en på längre perioder obebodd hus medför.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Innan semestern i stugan kunde börja för oss fanns det alltid mycket att göra.
-        Beroende på årstid och väder kunde det ta upp till tre dagar, innan allt var gjort.
-        Och ibland var det ganska krävande - att efter en dags resa på kvällen anlända till en stuga där det är lika
-        många minusgrader inomhus som utomhus är minst sagt utmanande, särskilt med små barn.
+        Likaså kommer jag väl ihåg, hur mycket arbete det var att vid ankomsten sätta huset i bruk (särskild vintertiden),
+        att fixa trädgården, genomför alla underhållsarbeten och att säkra huset inför nästa period av att står tom.
+        Jag tyckte om alla dessa aktiviteter och jobb men det går inte att förbise att det tog tid från semester, familj och återhämtning.
       </Typography>
       <Typography variant="inherit" gutterBottom={true} align="left" >
-        Allt arbete som krävs att få tillrätta stugan och trädgården både för att kunna vistas där och för att kunna
-        lämna den tom i flera veckor eller månader, men också allt arbete som underhåll och renovering krävs minskar
-        inte bara tiden för semester och återhämtning. Den minskar också tiden för mys, lek och upplevelser med dina nära och kära. 
+        Fortfarande känner jag tacksamhet för de människor som med stort och smått bistod oss under alla år.
+        Utan dessa människor hade vi framförallt i de första åren stått inför en hel rad problem som vi hade upplevt som oövervinnerlig.
+        Det börjar redan med att vi inte hade kunnat köpa huset, eftersom det inte fanns vatten indragen.
+        Vi hade ingen aning om hur vi skulle få ihop brunnsborrning samt vattenledningar och avloppssystemet, helt bortsett från de tillstånd som krävdes. 
+      </Typography>
+      <Typography variant="inherit" paragraph={true} align="left" >
+        Alla dessa erfarenheter, lösta problem, hittade idéer och kontakter är idag en stor del av min kunskapsskatt som jag bygger tjänsterna åt dig på.
       </Typography>
     </div>
     : language === 'de' ?
