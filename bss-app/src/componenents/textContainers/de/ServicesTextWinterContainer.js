@@ -34,7 +34,7 @@ function ServicesTextWinterContainer (props) {
           <li>Reinigung von Regenrinnen</li>
           <li>Maßnahmen zur Ableitung von Regen- und Schmelzwasser von Gebäudefundamenten</li>
         </ul>
-        Die hier angebotenen Maßnahmen zur Wintersicherung sind u. a. Empfehlungen der Versicherungsgesellschaften.
+        Die hier angebotenen Maßnahmen zur Wintersicherung sind Empfehlungen von u. a. Versicherungsgesellschaften.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Inbetriebnahme des Ferienhauses</u> (und eventuell anderer Gebäude) kann u. a. folgende Leistungen einschließen::
