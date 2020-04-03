@@ -107,7 +107,6 @@ class TabBar extends React.Component {
 
   updateHeight() {
     this.swipeableActions.updateHeight();
-    console.log('TabBar update height');
   }
 
   render() {
