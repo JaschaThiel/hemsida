@@ -39,7 +39,7 @@ function Types(props) {
         <b>Gunnar Thiel</b>
         <br></br><br></br>
         Telefon: 012 345 67 89<br></br><br></br>
-        E-mail: gunnar@blekingestugservice.se<br></br><br></br>
+        E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
         Sociala medier: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefontider:</u><br></br>
         Vardagar kl. 09:00 - 16:00<br></br>
@@ -100,7 +100,7 @@ function Types(props) {
         <b>Gunnar Thiel</b>
         <br></br><br></br>
         Telefon: 012 345 67 89<br></br><br></br>
-        E-mail: gunnar@blekingestugservice.se<br></br><br></br>
+        E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
         Soziale Medien: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefonzeiten:</u><br></br>
         Werktags 9:00 - 16:00 Uhr<br></br>
@@ -156,7 +156,7 @@ function Types(props) {
         <br></br>
         Telephone: 012 345 67 89<br></br>
         Mobile: 987 654 32 10<br></br><br></br>
-        E-mail: gunnar@blekingestugservice.se<br></br><br></br>
+        E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
         Social media: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Phone hours:</u><br></br>
         Weekdays 9 am - 4 pm.<br></br>

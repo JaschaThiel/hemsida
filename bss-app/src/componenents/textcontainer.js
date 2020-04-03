@@ -176,7 +176,7 @@ function Types(props) {
         <br></br>
         Telephone: 012 345 67 89<br></br>
         Mobile: 987 654 32 10<br></br><br></br>
-        E-mail: gunnar@blekingestugservice.se<br></br><br></br>
+        E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
         Social media: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Phone hours:</u><br></br>
         Weekdays 9 am - 4 pm.<br></br>
@@ -187,6 +187,12 @@ function Types(props) {
         Sävsjömålavägen 34<br></br>
         37262 Bräkne-Hoby<br></br>
         Sweden<br></br><br></br>
+      </Typography>
+      <Typography variant="inherit" gutterBottom={true} align="left" >
+        <br></br>
+        © blekingestugservice.se 2020 <br></br>
+        Photos:    Anna-Lena Thiel <br></br>
+        Design:    Jascha Thiel
       </Typography>
     </div>
   );
