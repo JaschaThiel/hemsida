@@ -15,8 +15,8 @@ import ContactTextContainer from './ContactTextContainer';
 import ContactHeadingContainer from './ContactHeadingContainer';
 import ServicesTextExpansionContainer from './ServicesTextExpansionContainer';
 import ServicesHeadingContainer from './ServicesHeadingContainer';
-import HeadingContainer from './headingcontainer';
-import TextContainer from './textcontainer';
+import HeadingContainer from './Headingcontainer';
+import StartTextContainer from './StartTextContainer';
 
 
 function TabContainer(props) {
@@ -154,7 +154,7 @@ class TabBar extends React.Component {
           <TabContainer dir={theme.direction} >
           <img className={classes.cropped} src={ require('../images/IMG_7588_cropped5.JPG')} alt="im1" />
           <HeadingContainer language={this.state.lang} />
-          <TextContainer language={this.state.lang}/>
+          <StartTextContainer language={this.state.lang}/>
           </TabContainer>
           
           <TabContainer dir={theme.direction}>
