@@ -100,7 +100,7 @@ function Types(props) {
         <br></br>
         <b>Gunnar Thiel</b>
         <br></br><br></br>
-        Telefon: +46 72 - 362 95 14<br></br><br></br>
+        Telefon: +46 72 362 95 14<br></br><br></br>
         E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
         Soziale Medien: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefonzeiten:</u><br></br>
