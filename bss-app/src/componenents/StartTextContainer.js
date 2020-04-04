@@ -24,7 +24,7 @@ function Types(props) {
     language === 'se' ? 
     <div className={classes.root}>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} >
-        Tjänster för dig och din stuga i Blekinge och sydöstra Småland
+        Tjänster för dig och din stuga<br></br>i Blekinge och sydöstra Småland
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Blekinge stugservice erbjuder ett brett urval av tjänster - helt efter dina önskemål och behov. Du får många fördelar:
@@ -92,7 +92,7 @@ function Types(props) {
     : language === 'de' ?
     <div className={classes.root}>
       <Typography color="secondary" component="h2" variant="h3" gutterBottom={true} >
-      Dienstleistungen für Sie und Ihr Ferienhaus in Blekinge und dem südöstlichen Småland
+      Dienstleistungen für Sie und Ihr Ferienhaus<br></br>in Blekinge und dem südöstlichen Småland
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Blekinge Ferienhausservice bietet eine breite Palette an Dienstleistungen - ganz nach Ihren Wünschen und Bedürfnissen. Sie haben viele Vorteile:

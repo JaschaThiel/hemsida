@@ -28,7 +28,6 @@ function ServicesTextPrisContainer (props) {
               På paket med ett fakturavärde över 10000 kr ger jag 5% rabatt, över 20000 kr 10%.
               Tjänstepaket faktureras månadsvis i efterskott, alternativt kvartals- eller årsvis i förskott.</li>
           <li>Som riktvärde: En timme kostar 360 kr exklusive moms, 450 kr inklusive moms.</li>
-          <li>Kunder som uppfyller skatteverkets krav kan få rot- och rutavdrag på för detta godkända tjänster.</li> 
           <li>För projekt med stort materialbehov behöver du möjligtvis gå i förskott för materialet.</li>
         </ul>
       </Typography>

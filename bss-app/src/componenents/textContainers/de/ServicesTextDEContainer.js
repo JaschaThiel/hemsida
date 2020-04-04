@@ -25,13 +25,13 @@ function ServicesTextDEContainer (props) {
         weil wir nicht richtig verstanden, worum es ging oder was von uns erwartet wurde. Ich kann Ihnen mit diesen Dingen behilflich sein.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <u>Hilfe mit Behörden und Ähnlichem</u><br></br>
+        <u>Hilfe mit Behörden, Kommunen u. a.</u><br></br>
         Manchmal ist es einfach gut, wenn jemand dabei ist, der der Landessprache mächtig ist.
         Besonders, wenn vielleicht auch das eigene Englisch oder auch das des Gegenübers nicht ganz so sitzt.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Übersetzungen und Dolmetschen</u><br></br>
-        Ich kann für Sie Übersetzungen vornehmen (in beiden Richtungen) oder auch Ihnen als Dolmetscher beistehen.
+        Ich kann für Sie Übersetzungen vornehmen oder Ihnen als Dolmetscher beistehen. Dieses gilt Schwedisch-Deutsch/Deutsch-Schwedisch.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Vertretungen</u><br></br>

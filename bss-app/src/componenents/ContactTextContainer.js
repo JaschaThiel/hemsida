@@ -30,15 +30,16 @@ function Types(props) {
         Här hittar du kontaktuppgifter till mig och längre ner berättar jag lite om mig själv. 
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Jag är tillgänglig på telefon vardagar kl. 9:00 - 16:00, men det kan vara så att jag håller på med någonting
-        som gör att jag inte kan svara eller inte hör telefonen. Du får gärna lämna ett meddelande på telefonsvararen eller,
+        Tveka inte att ringa, jag pratar svenska, tyska och engelska. Jag är tillgänglig vardagar kl. 9:00 - 16:00,
+        men det kan vara så att jag håller på med någonting som gör att jag inte kan svara eller inte hör telefonen.
+        Du får gärna lämna ett meddelande på telefonsvararen eller,
         ännu bättre, skicka ett sms, mejl eller använda nedan nämnda sociala medier. Jag hör sedan av mig så fort jag kan.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <br></br>
         <b>Gunnar Thiel</b>
         <br></br><br></br>
-        Telefon: 012 345 67 89<br></br><br></br>
+        Telefon: +46 72 362 95 14<br></br><br></br>
         E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
         Sociala medier: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefontider:</u><br></br>
@@ -89,7 +90,7 @@ function Types(props) {
         Hier finden Sie Kontaktinformationen und weiter unten erzähle ich kurz über mich.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Telefonisch erreichen Sie mich an Werktagen von 9:00 - 16:00 Uhr.
+        Zögern Sie nicht, mich anzurufen, ich spreche Deutsch, Schwedisch und Englisch. Sie erreichen mich an Werktagen von 9:00 - 16:00 Uhr.
         Es kann aber sein, dass ich mit etwas beschäftigt bin was mich hindert zu antworten oder was dazu führt,
         dass ich das Telefon nicht höre. Hinterlassen Sie gerne eine Nachricht auf dem Anrufbeantworter oder,
         besser noch, schicken Sie mir eine Mail, SMS, oder Nachricht über eine der unten genannten Sozialen Medien.
@@ -99,7 +100,7 @@ function Types(props) {
         <br></br>
         <b>Gunnar Thiel</b>
         <br></br><br></br>
-        Telefon: 012 345 67 89<br></br><br></br>
+        Telefon: +46 72 - 362 95 14<br></br><br></br>
         E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
         Soziale Medien: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefonzeiten:</u><br></br>
