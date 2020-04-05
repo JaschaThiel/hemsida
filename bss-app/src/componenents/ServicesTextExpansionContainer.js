@@ -442,10 +442,8 @@ class ServicesTextContainer extends React.Component {
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Gunnar Thiel</b>
         <br></br>
-        Telephone: 012 345 67 89<br></br>
-        Mobile: 987 654 32 10<br></br><br></br>
+        Telephone: +46 72 362 95 14<br></br>
         E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
-        Social media: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Phone hours:</u><br></br>
         Weekdays 9 am - 4 pm.<br></br>
         If the phone hours do not work for you, or you have trouble getting a hold of me during them,

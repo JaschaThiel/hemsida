@@ -30,10 +30,10 @@ function Types(props) {
         Här hittar du kontaktuppgifter till mig och längre ner berättar jag lite om mig själv. 
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Tveka inte att ringa, jag pratar svenska, tyska och engelska. Jag är tillgänglig vardagar kl. 9:00 - 16:00,
+        Tveka inte att ringa, jag pratar <b>svenska</b>, <b>tyska</b> och <b>engelska</b>. Jag är tillgänglig vardagar kl. 9:00 - 16:00,
         men det kan vara så att jag håller på med någonting som gör att jag inte kan svara eller inte hör telefonen.
         Du får gärna lämna ett meddelande på telefonsvararen eller,
-        ännu bättre, skicka ett sms, mejl eller använda nedan nämnda sociala medier. Jag hör sedan av mig så fort jag kan.
+        ännu bättre, skicka ett sms, mejl eller WhatsApp-meddelande. Jag hör sedan av mig så fort jag kan.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <br></br>
@@ -41,7 +41,6 @@ function Types(props) {
         <br></br><br></br>
         Telefon: +46 72 362 95 14<br></br><br></br>
         E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
-        Sociala medier: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefontider:</u><br></br>
         Vardagar kl. 09:00 - 16:00<br></br>
         Passar inte tiderna dig? Skicka ett meddelande med ett tidsförslag, så ringer jag gärna upp dig.<br></br><br></br>
@@ -90,10 +89,10 @@ function Types(props) {
         Hier finden Sie Kontaktinformationen und weiter unten erzähle ich kurz über mich.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Zögern Sie nicht, mich anzurufen, ich spreche Deutsch, Schwedisch und Englisch. Sie erreichen mich an Werktagen von 9:00 - 16:00 Uhr.
+        Zögern Sie nicht, mich anzurufen, ich spreche <b>Deutsch</b>, <b>Schwedisch</b> und <b>Englisch</b>. Sie erreichen mich an Werktagen von 9:00 - 16:00 Uhr.
         Es kann aber sein, dass ich mit etwas beschäftigt bin was mich hindert zu antworten oder was dazu führt,
         dass ich das Telefon nicht höre. Hinterlassen Sie gerne eine Nachricht auf dem Anrufbeantworter oder,
-        besser noch, schicken Sie mir eine Mail, SMS, oder Nachricht über eine der unten genannten Sozialen Medien.
+        besser noch, schicken Sie mir eine Mail, SMS, oder Nachricht über WhatsApp.
         Ich melde mich dann so schnell wie möglich bei Ihnen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
@@ -102,7 +101,6 @@ function Types(props) {
         <br></br><br></br>
         Telefon: +46 72 362 95 14<br></br><br></br>
         E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
-        Soziale Medien: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Telefonzeiten:</u><br></br>
         Werktags 9:00 - 16:00 Uhr<br></br>
         Passen Ihnen die Zeiten nicht? Schicken Sie mir eine Nachricht mit einem Zeitvorschlag, ich rufe Sie dann gerne zurück.<br></br><br></br>
@@ -155,10 +153,8 @@ function Types(props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Gunnar Thiel</b>
         <br></br>
-        Telephone: 012 345 67 89<br></br>
-        Mobile: 987 654 32 10<br></br><br></br>
+        Telephone: +46 72 362 95 14<br></br>
         E-mail: <a href="mailto:gunnar@blekingestugservice.se" >gunnar@blekingestugservice.se</a><br></br><br></br>
-        Social media: WhatsApp, Signal, Threema<br></br><br></br>
         <u>Phone hours:</u><br></br>
         Weekdays 9 am - 4 pm.<br></br>
         If the phone hours do not work for you, or you have trouble getting a hold of me during them,
