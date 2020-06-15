@@ -31,9 +31,9 @@ function Types(props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Tveka inte att ringa, jag pratar <b>svenska</b>, <b>tyska</b> och <b>engelska</b>. Jag är tillgänglig vardagar kl. 9:00 - 16:00,
-        men det kan vara så att jag håller på med någonting som gör att jag inte kan svara eller inte hör telefonen.
-        Du får gärna lämna ett meddelande på telefonsvararen eller,
-        ännu bättre, skicka ett sms, mejl eller WhatsApp-meddelande. Jag hör sedan av mig så fort jag kan.
+        men det kan vara så att jag är upptagen och därför inte kan svara eller inte hör telefonen.
+        Om så är fallet får du gärna lämna ett meddelande på telefonsvararen eller, ännu bättre, skicka ett sms, mejl eller WhatsApp-meddelande.
+        Jag hör sedan av mig så fort jag kan.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <br></br>
@@ -58,13 +58,13 @@ function Types(props) {
       </Typography>
       
       <Typography variant="inherit" paragraph={true} align="left" >
-        Född 1966 i Lübeck, uppvuxen i Hamburg och San Diego. Gift, två vuxna och utflugna barn.
-        Jag har en utbildning i socialt arbete och jobbat en del i yrket.
+        Född 1966 i Lübeck, uppvuxen i Hamburg och San Diego, bosatt i Sverige sedan 2004. Gift, två vuxna och utflugna barn.
+        Jag har en utbildning i socialt arbete och har jobbat en hel del inom yrket.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Men jag har också i flera år jobbat som snickare samt i många år som fastighetsskötare,
+        Men jag har också många års erfarenhet av arbetet som snickare. Utöver det har jag arbetat ett flertal år som fastighetsskötare,
         lagerarbetare och budbilsförare för en skeppsutrustare i Hamburgs hamn.
-        En viss tid har jag också jobbat som kundtjänstmedarbetare i ett dataföretag.
+        Dessutom har jag arbetat en viss tid som kundtjänstmedarbetare inom ett IT-företag. 
       </Typography>
       <img className={classes.img1} src={ image1} alt="im1" />
       <Typography variant="inherit" gutterBottom={true} align="left" >
@@ -73,8 +73,9 @@ function Types(props) {
         Jag hugger i där det behövs och drar mig inte för obekväma jobb!
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Mina intresseområden är ganska breda. Hantverk av alla slag och trädgård, odling, matlagning, natur och hållbarhet,
-        både utifrån ett miljö- och ett samhällsperspektiv (om man nu kan skilja på dem). Jag gillar att lösa problem och jag tycker om ny kunskap.
+        Mina intresseområden är breda. Hantverk av alla slag, trädgård, odling, matlagning, natur samt hållbarhet,
+        både utifrån ett miljö- och ett samhällsperspektiv (om man nu kan skilja på dem).
+        Jag gillar att lösa problem och jag tycker om att få ny kunskap.
       </Typography>
       <Typography variant="inherit" gutterBottom={true} align="left" >
         <br></br>

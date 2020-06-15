@@ -37,7 +37,7 @@ function ServicesTextWinterContainer (props) {
         Die hier angebotenen Maßnahmen zur Wintersicherung sind Empfehlungen von u. a. Versicherungsgesellschaften.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <u>Inbetriebnahme des Ferienhauses</u> (und eventuell anderer Gebäude) kann u. a. folgende Leistungen einschließen::
+        <u>Inbetriebnahme des Ferienhauses</u> (und eventuell anderer Gebäude) kann u. a. folgende Leistungen einschließen:
         <ul className={classes.bullets} >
           <li>Öffnung der Wasserzuleitung und Befüllung des Wassersystems</li>
           <li>Spülung von Bodenabflüssen und Geruchssperren</li>

@@ -45,7 +45,7 @@ const styles = {
   secondaryHeading: {
     fontSize: 20,
     color: '#1b5e20',
-    fontWeight: 'lighter',
+    //fontWeight: 'lighter',
   },
   expPanEven: {
     backgroundColor: '#eaeaea',
@@ -77,7 +77,7 @@ class ServicesTextContainer extends React.Component {
         Önskar du mer information kan du utvidga respektive ruta. 
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Behöver du något som inte finns med i tjänsteutbudet? Det är bara att höra av dig till mig så hittar vi en lösning.
+        Behöver du något som inte finns med i tjänsteutbudet? Då är det bara att höra av dig, så hittar vi en lösning.
       </Typography>
       <Typography variant="inherit" paragraph={true} align ="left" >
         Information om prissättning hittar du längst ner.
@@ -138,7 +138,7 @@ class ServicesTextContainer extends React.Component {
           aria-controls="panel4a-content"
           id="penel4a-header"
         >
-          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renoverig och bygg</Typography>
+          <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Renovering och bygg</Typography>
           <Typography align="left" variant="inherit" className={classes.secondaryHeading}>
             Utförandet av de flesta renoveringsarbeten samt mindre tillbyggnader och fristående byggnader
           </Typography>
@@ -289,7 +289,7 @@ class ServicesTextContainer extends React.Component {
         >
           <Typography align="left" color="secondary" variant="inherit" className={classes.heading}>Schadensmanagement</Typography>
           <Typography align="left" color="secondary" variant="inherit" className={classes.secondaryHeading}>
-           - Administrative Schadensregulierung<br></br>- Instandsetzung des Eigentums<br></br>- Instandsetzung des Eigentums
+           - Administrative Schadensregulierung<br></br>- Sicherung des Eigentums, Vermeidung von Folgeschäden<br></br>- Instandsetzung des Eigentums
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails >

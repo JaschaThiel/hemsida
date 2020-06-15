@@ -16,9 +16,9 @@ function ServicesTextTradgardsarbetenContainer (props) {
   return (
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
-        Gräsklippning och kantskärning, beskärning av buskar och träd, fällning av mindre träd, plantering, bevattning, röjning,
-        sågning och klyvning av ved mm. Jag utför de flesta trädgårdsarbeten.
-        I viss utsträckning kan jag också hjälpa till med anläggning av t.ex. gånger och annat i trädgården.
+        Gräsklippning och kantskärning, beskärning av buskar och träd, fällning av mindre träd, plantering, bevattning,
+        röjning, sågning och klyvning av ved mm. Jag utför de flesta trädgårdsarbeten.
+        I viss utsträckning kan jag också hjälpa till med anläggning av t.ex. stigar och annat i trädgården.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Att utföra gräsklippning regelbundet kräver mindre tid, ger en finare gräsmatta och fastigheten ger ett intryck av att vara bebodd,

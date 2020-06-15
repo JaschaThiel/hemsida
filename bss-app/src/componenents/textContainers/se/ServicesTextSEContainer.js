@@ -28,8 +28,8 @@ function ServicesTextSEContainer (props) {
         Jag kan ta fram översättningar av t.ex. brev, mejl, pärmen med information kring din stuga, skyltar mm
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Likaså kan jag hjälpa dig med ett bra framträdande på den tyska marknaden,
-        t.ex. på nätet eller med broschyrer främst genom att ser till att texter och information på tyska är korrekt och begriplig.
+        Likaså kan jag hjälpa dig med ett bra framträdande på den tyska marknaden, t.ex. på nätet eller med broschyrer,
+        främst genom att säkerställa att informationen och texterna som är på tyska är korrekta och begripliga. 
       </Typography>
     </div>
   );

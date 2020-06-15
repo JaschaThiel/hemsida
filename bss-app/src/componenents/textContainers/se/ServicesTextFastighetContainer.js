@@ -37,7 +37,7 @@ function ServicesTextFastighetContainer (props) {
           <li>Vädring</li>
           <li>Uppvärmning</li>
           <li>Påfyllning av förbrukningsmaterial (t.ex. disk- och tvättmedel, hushålls- och toapapper)</li>
-          <li>Vid behov i bruk sättning</li>
+          <li>Vid behov i bruk sättning av stugan (se ovan)</li>
         </ul>
         Vid ankomsten
         <ul className={classes.bullets} >
@@ -58,7 +58,7 @@ function ServicesTextFastighetContainer (props) {
           <li>Slutstädning (jag organiserar slutstädning genom ett städföretag)</li>
           <li>Tvätt (inlämning till och hämtning från tvätteriet)</li>
           <li>Utplacering av fällor</li>
-          <li>Vid behov vintersäkring</li>
+          <li>Vid behov vintersäkring av stugan (se ovan)</li>
         </ul>
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >

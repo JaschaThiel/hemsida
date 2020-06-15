@@ -20,15 +20,15 @@ function ServicesTextSkadehanteringContainer (props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left">
         <u>Säkring av egendomen:</u> Snabba och tillfälliga lösningar för att förhindra eller åtminstone minimera följdskador.
-        Det kan t.ex. vara att täcka ett hål i taket med en presenning,
-        bomma igen ett uppbrutet fönster eller dörr eller tömma huset på lös egendom och förvara detta.
+        Det kan t.ex. vara att täcka ett hål i taket med en presenning, bomma igen ett uppbrutet fönster eller en dörr,
+        tömma huset på lös egendom och förvara detta etc.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <u>Återställning av egendomen:</u> Alla nödvändiga åtgärder för att återställa egendomen.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-      Beroende på typ av åtgärder gällande både säkring och återställning av egendomen utför jag
-      antingen arbeten själv eller anlitar andra hantverkare/företag åt dig.
+        Beroende på typ av åtgärder gällande både säkring och återställning av egendomen utför jag antingen arbetet själv eller
+        anlitar andra hantverkare/företag åt dig.
       </Typography>
     </div>
   );

@@ -56,7 +56,7 @@ function ServicesTextGebaudeContainer (props) {
         Nach der Abreise
         <ul className={classes.bullets} >
           <li>Endreinigung (Ich organisiere die Ausführung durch eine Reinigungsfirma)</li>
-          <li>Abgabe und Abholung von Wäsche bei der Wäscherei)</li>
+          <li>Abgabe und Abholung von Wäsche bei der Wäscherei</li>
           <li>Aufstellen von Fallen</li>
           <li>Bei Bedarf Wintersicherung</li>
         </ul>

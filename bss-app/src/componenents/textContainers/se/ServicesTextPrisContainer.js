@@ -21,14 +21,15 @@ function ServicesTextPrisContainer (props) {
     <div className={classes.root} >
       <Typography variant="inherit" paragraph={true} align="left" >
         Fastigheternas förutsättningar samt dina önskemål och behov som ägare är mycket olika.
-        Jag tar gärna fram en individuell offert för dig. Mitt offertbesök är kostnadsfritt om du finns på plats.
+        Jag tar gärna fram en individuell offert åt dig. Mitt offertbesök är kostnadsfritt om du finns på plats.
         <ul className={classes.bullets} >
           <li>För de flesta tjänster/uppdrag kan du få en offert med fast pris.</li>
-          <li>Det är möjligt att skapa tjänstepaket.
-              På paket med ett fakturavärde över 10000 kr ger jag 5% rabatt, över 20000 kr 10%.
-              Tjänstepaket faktureras månadsvis i efterskott, alternativt kvartals- eller årsvis i förskott.</li>
+          <li>Det är möjligt att köpa timpaket vilket innebär en större flexibilitet för tjänster som är svåra att planera.
+              På paket med ett fakturavärde över 10 000 kr ger jag 10% rabatt.
+              Timpaket faktureras månadsvis i efterskott, alternativt kvartals- eller årsvis i förskott.</li>
           <li>Som riktvärde: En timme kostar 360 kr exklusive moms, 450 kr inklusive moms.</li>
-          <li>För projekt med stort materialbehov behöver du möjligtvis gå i förskott för materialet.</li>
+          <li>Kunder som uppfyller skatteverkets krav kan få rot- och rutavdrag på tjänster som är godkända för det.</li>
+          <li>För projekt med stort materialbehov behöver du eventuellt gå i förskott för materialet.</li>
         </ul>
       </Typography>
     </div>

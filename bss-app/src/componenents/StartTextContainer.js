@@ -27,7 +27,7 @@ function Types(props) {
         Tjänster för dig och din stuga<br></br>i Blekinge och sydöstra Småland
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Blekinge stugservice erbjuder ett brett urval av tjänster - helt efter dina önskemål och behov. Du får många fördelar:
+        Blekinge Stugservice erbjuder ett brett urval av tjänster - helt efter dina önskemål och behov. Du får många fördelar:
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Hjälp och stöd</b><br></br>
@@ -49,15 +49,13 @@ function Types(props) {
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Trygghet</b><br></br>
-        Rörelse på din fastighet i tider då stugan står tom och ett vårdat intryck av tomten minskar risken för inbrott och skadegörelse.
-        Du vet, vad som händer på din tomt och skador kan undvikas eller minimeras.
-        Men du får också trygghet i t.ex. att allt är som det ska när du eller dina gäster anländer till stugan. 
+        Rörelse på din fastighet samt ett vårdat intryck av tomten i tider då stugan står tom minskar risken för inbrott och skadegörelse.
+        Du blir uppdaterad kring vad som händer på din tomt  och dessutom kan skador undvikas eller minimeras.
+        Men du får också trygghet genom att allt är som det ska när du eller dina gäster anländer till stugan.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <b>Återhämtning från dag ett!</b><br></br>
-        Det finns mycket att oroa sig för. Det kan vara stora grejer som att oroa sig för t.ex.
-        inbrott eller stormskador eller mindre grejer som skador genom djur, men också kring hur en renovering ska utföras
-        eller vilka formaliteter man behöver ta hänsyn till. Genom tjänsterna som Blekinge stugservice erbjuder slipper du mycket av oron.
+        <b>Enkelhet</b><br></br>
+        Många tjänster genom ett och samma företag gör det enkelt för dig att ta hand om din stuga.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Återhämtning från dag ett!</b><br></br>
@@ -68,22 +66,22 @@ function Types(props) {
         Jag vet vad jag pratar om
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Torpet vi här i Blekinge bor i permanent sedan 2004 köpte vi redan 1997 som sommarstuga.
+        Torpet i Blekinge, som vi permanent bor i sedan 2004, köpte vi redan 1997 som sommarstuga.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Vi har haft många fina semesterdagar i stugan, men vi har också drabbats av inbrott, stormskador, intrång av djur samt frostskador.
-        Jag känner till oron, osäkerheten och rådlösheten som sådana händelser och en på längre perioder obebodd hus medför.
+        Jag känner till oron, osäkerheten och rådlösheten som sådana händelser och ett under längre perioder obebott hus medför.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        Likaså kommer jag väl ihåg, hur mycket arbete det var att vid ankomsten sätta huset i bruk (särskild vintertiden),
-        att fixa trädgården, genomför alla underhållsarbeten och att säkra huset inför nästa period av att står tom.
-        Jag tyckte om alla dessa aktiviteter och jobb men det går inte att förbise att det tog tid från semester, familj och återhämtning.
+        Likaså kommer jag mycket väl ihåg hur mycket arbete det var att vid ankomsten sätta huset i bruk (särskilt vintertid),
+        att fixa trädgården, genomför alla underhållsarbeten och att säkra huset inför nästa obebodda period.
+        Jag tyckte förvisso om alla dessa aktiviteter och allt jobb men det går inte att förbise att det tog tid från semester, familj och återhämtning.
       </Typography>
       <Typography variant="inherit" gutterBottom={true} align="left" >
         Fortfarande känner jag tacksamhet för de människor som med stort och smått bistod oss under alla år.
-        Utan dessa människor hade vi framförallt i de första åren stått inför en hel rad problem som vi hade upplevt som oövervinnerlig.
-        Det börjar redan med att vi inte hade kunnat köpa huset, eftersom det inte fanns vatten indragen.
-        Vi hade ingen aning om hur vi skulle få ihop brunnsborrning samt vattenledningar och avloppssystemet, helt bortsett från de tillstånd som krävdes. 
+        Utan dessa människor hade vi framförallt under de första åren stått inför en rad problem som vi hade upplevt som oövervinnliga.
+        Det började redan vid husköpet. Det fanns inget indraget vatten och vi hade ingen aning om hur vi skulle få ihop varken brunnsborrning,
+        vattenledningar eller avloppssystem, helt bortsett från de tillstånd som krävdes.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Alla dessa erfarenheter, lösta problem, hittade idéer och kontakter är idag en stor del av min kunskapsskatt som jag bygger tjänsterna åt dig på.
@@ -123,11 +121,8 @@ function Types(props) {
         Darüber hinaus erhalten Sie aber z.B. auch Sicherheit darüber, dass bei Ihrer Ankunft oder der Ankunft Ihrer Gäste alles so ist, wie es sein soll.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
-        <b>Sie brauchen sich nicht mehr zu beunruhigen</b><br></br>
-        Es gibt vieles, worüber man unruhig sein kann. Das können grosse Sachen sein wie z. B.
-        Einbruch oder Sturmschäden oder auch kleinere wie etwa Schäden durch Tiere.
-        Aber auch Fragen eine bevorstehende Renovierung betreffend und die zu berücksichtigen Formalitäten können beunruhigen.
-        Mit den Dienstleistungen von Blekinge Ferienhausservice können Sie sich viele Sorgen ersparen.
+        <b>Einfachheit</b><br></br>
+        Eine Vielzahl an Dienstleistungen aus ein und derselben Hand macht es einfach für Sie, Ihr Ferienhaus zu pflegen und zu verwalten.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         <b>Erholung vom ersten Tag an!</b><br></br>

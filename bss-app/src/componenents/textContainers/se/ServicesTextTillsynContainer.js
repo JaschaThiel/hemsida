@@ -22,18 +22,18 @@ function ServicesTextTillsynContainer (props) {
       <Typography variant="inherit" paragraph={true} align="left" >
         Regelbunden kontroll av egendomen kan minska risken för inbrott eftersom det blir mer rörelse på tomten.
         Det kan också medföra att skador kan undvikas genom att risker upptäcks innan skadan har skett.
-        Och när skadan väl är framme leder en tidig upptäckt till en avsevärd minskning av följdskador.
+        Skulle skadan redan vara framme leder en tidig upptäckt till en avsevärd minskning av följdskador.
         Sist men inte minst slipper du som ägare eller dina gäster oönskade överraskningar vid ankomst till stugan.
       </Typography>
       <Typography variant="inherit" paragraph={true} align="left" >
         Tillsynsbesök utförs
         <ul>
           <li>regelbundet i den takt du önskar, samt efter särskilda händelser (storm, översvämningar, stora snömängder, skogsbrand mm)</li>
-          <li>utomhus (kontroll av tomten och byggnader bl.a. gällande inbrott, inbrottsförsök,
-              skador eller risk för skador genom särskilda händelser, skador genom djur) och</li>
+          <li>utomhus (kontroll av tomten och byggnader bl.a. gällande inbrott, inbrottsförsök, skador
+              eller risk för skador genom särskilda händelser eller djur.)</li>
           <li>inomhus (skador genom djur, frostskador mm).</li>
         </ul>
-        I tillsynsbesök kan även ingå bl.a.
+        I tillsynsbesök kan det även ingå bl.a.
         <ul>
           <li>Kontroll av timers</li>
           <li>Kontroll av värmeelement (ifall de används som frostskydd)</li>

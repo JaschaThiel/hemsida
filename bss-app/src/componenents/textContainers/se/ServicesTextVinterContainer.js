@@ -24,7 +24,7 @@ function ServicesTextVinterContainer (props) {
         <ul className={classes.bullets} >
           <li>Avstängning av vatten och tömning av vattensystemet</li>
           <li>Förse vattenlås och golvbrunnar med frostskydd (jag använder endast miljövänlig sådan)</li>
-          <li>Påsättning av värmeelement som frostskydd</li>
+          <li>Påsättning av värmeelement (ifall de används som frostskydd)</li>
           <li>Avstängning av el och utdragning av elektriska kontakter (om inte värmeelement behöver vara påslagna)</li>
           <li>Säkerställa att dörrar av kyl och frys står på glänt</li>
           <li>Avfrostning samt rengöring av kyl- och frysskåp</li>
