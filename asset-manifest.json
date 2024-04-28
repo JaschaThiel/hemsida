@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hemsida/static/css/main.aec0c013.chunk.css",
-    "main.js": "/hemsida/static/js/main.86ebb0f9.chunk.js",
-    "main.js.map": "/hemsida/static/js/main.86ebb0f9.chunk.js.map",
-    "runtime~main.js": "/hemsida/static/js/runtime~main.a68333e8.js",
-    "runtime~main.js.map": "/hemsida/static/js/runtime~main.a68333e8.js.map",
-    "static/js/2.ce2a9ab5.chunk.js": "/hemsida/static/js/2.ce2a9ab5.chunk.js",
-    "static/js/2.ce2a9ab5.chunk.js.map": "/hemsida/static/js/2.ce2a9ab5.chunk.js.map",
-    "index.html": "/hemsida/index.html",
-    "precache-manifest.b3a665387b5c9c2f46c1853b7a4fc2b8.js": "/hemsida/precache-manifest.b3a665387b5c9c2f46c1853b7a4fc2b8.js",
-    "service-worker.js": "/hemsida/service-worker.js",
-    "static/css/main.aec0c013.chunk.css.map": "/hemsida/static/css/main.aec0c013.chunk.css.map",
-    "static/media/IMG_7588_cropped5.JPG": "/hemsida/static/media/IMG_7588_cropped5.7e0f20bc.JPG",
-    "static/media/IMG_7638_cropped3.JPG": "/hemsida/static/media/IMG_7638_cropped3.26b24f30.JPG",
-    "static/media/IMG_7681.JPG": "/hemsida/static/media/IMG_7681.944aa23b.JPG",
-    "static/media/IMG_7715.JPG": "/hemsida/static/media/IMG_7715.b6e05f62.JPG"
+    "main.css": "/JaschaThiel/hemsida/static/css/main.aec0c013.chunk.css",
+    "main.js": "/JaschaThiel/hemsida/static/js/main.e7967be6.chunk.js",
+    "main.js.map": "/JaschaThiel/hemsida/static/js/main.e7967be6.chunk.js.map",
+    "runtime~main.js": "/JaschaThiel/hemsida/static/js/runtime~main.d599ac37.js",
+    "runtime~main.js.map": "/JaschaThiel/hemsida/static/js/runtime~main.d599ac37.js.map",
+    "static/js/2.ce2a9ab5.chunk.js": "/JaschaThiel/hemsida/static/js/2.ce2a9ab5.chunk.js",
+    "static/js/2.ce2a9ab5.chunk.js.map": "/JaschaThiel/hemsida/static/js/2.ce2a9ab5.chunk.js.map",
+    "index.html": "/JaschaThiel/hemsida/index.html",
+    "precache-manifest.c2c77b833edbdeb6f87e4f9c126fbbd2.js": "/JaschaThiel/hemsida/precache-manifest.c2c77b833edbdeb6f87e4f9c126fbbd2.js",
+    "service-worker.js": "/JaschaThiel/hemsida/service-worker.js",
+    "static/css/main.aec0c013.chunk.css.map": "/JaschaThiel/hemsida/static/css/main.aec0c013.chunk.css.map",
+    "static/media/IMG_7588_cropped5.JPG": "/JaschaThiel/hemsida/static/media/IMG_7588_cropped5.7e0f20bc.JPG",
+    "static/media/IMG_7638_cropped3.JPG": "/JaschaThiel/hemsida/static/media/IMG_7638_cropped3.26b24f30.JPG",
+    "static/media/IMG_7681.JPG": "/JaschaThiel/hemsida/static/media/IMG_7681.944aa23b.JPG",
+    "static/media/IMG_7715.JPG": "/JaschaThiel/hemsida/static/media/IMG_7715.b6e05f62.JPG"
   }
 }
