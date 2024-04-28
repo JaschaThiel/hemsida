@@ -26,8 +26,7 @@ function ServicesTextPreiseContainer (props) {
           <li>Für die meisten Dienstleistungen/Aufträge kann ich Ihnen einen Festpreis anbieten.</li>
           <li>Es gibt die Möglichkeit, Dienstleistungspakete zu schaffen.
               Auf Pakete mit mindestens 25 Stunden gewähre ich 10% Rabatt.
-              Dienstleistungspakete werden monatsweise jeweils zum Ende des Monats in Rechnung gestellt,
-              alternativ quartalsweise oder jährlich gegen Vorkasse.</li>
+              </li>
           <li>Um Ihnen einen Anhaltspunkt zu geben: Eine Stunde kostet 400 Kronen exklusive und 500 Kronen inklusive Mehrwertsteuer.</li>
           <li>Bei Projekten mit großem Materialbedarf ist es möglicherweise erforderlich, dass Sie für das Material in Vorkasse treten.</li>
         </ul>

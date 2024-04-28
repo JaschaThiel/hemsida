@@ -26,7 +26,7 @@ function ServicesTextPrisContainer (props) {
           <li>För de flesta tjänster/uppdrag kan du få en offert med fast pris.</li>
           <li>Det är möjligt att köpa timpaket vilket innebär en större flexibilitet för tjänster som är svåra att planera.
               På paket med 25 timmar eller mer ger jag 10% rabatt.
-              Timpaket faktureras månadsvis i efterskott, alternativt kvartals- eller årsvis i förskott.</li>
+              </li>
           <li>Som riktvärde: En timme kostar 400 kr exklusive moms, 500 kr inklusive moms.</li>
           <li>Kunder som uppfyller skatteverkets krav kan få rot- och rutavdrag på tjänster som är godkända för det.</li>
           <li>För projekt med stort materialbehov behöver du eventuellt gå i förskott för materialet.</li>
